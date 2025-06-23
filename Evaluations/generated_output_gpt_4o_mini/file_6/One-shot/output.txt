@@ -1,0 +1,27 @@
+### Identification
+1. A ticket is created to initiate the onboarding process for a new joiner.
+2. The IT helpdesk reviews the ticket for validity.
+3. An access request is submitted in IdentityNow based on the requested role.
+4. If the ticket was not submitted by the new joiner's manager, the manager must approve it before access is granted.
+5. Credentials and access rights are provisioned.
+6. Credentials are shared exactly seven days before the start date.
+7. The ticket is then closed by the IT helpdesk.
+
+### Indication
+1. At page 1, a ticket for Jan Rons was created on 02/Jul/24, with the starting date of 14/Aug/24.
+2. The comments indicate that the IT helpdesk (Nils van Tetter) made a note about sharing credentials on 26/Jul/24, specifically sharing them seven days before the start date.
+3. The ticket states that access was confirmed to be submitted based on the role of Software Engineer, as seen in multiple comments.
+4. It is noted that Nils van Tetter made comments and changes to confirm the ticket’s progress and approval status.
+5. There is no evidence from the screenshots that shows whether the manager's approval was obtained since it mainly reflects the IT helpdesk activities.
+
+### Completeness
+- The evidence lacks clear documentation showing that the manager approved the ticket. This is crucial as it states that if the ticket was not submitted by the manager, their approval must be obtained before access is granted.
+  
+### Remarks
+1. It is ambiguous whether the required approval from the new joiner's manager was obtained and recorded. The comments mostly revolve around the IT helpdesk's actions without reference to any confirmation of a manager's approval.
+2. Additional evidence or documentation reflecting the manager's approval would clarify this ambiguity.
+
+### Conclusion
+B. Does not fully support - evidence is incomplete or unclear and may require additional clarification, no clear deficiency is indicated.
+
+This classification is due to the lack of documented approval from the new joiner's manager, which is a critical part of the control description that needs to be confirmed.

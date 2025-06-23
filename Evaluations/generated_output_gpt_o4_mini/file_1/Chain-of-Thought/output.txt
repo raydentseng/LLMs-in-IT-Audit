@@ -1,0 +1,39 @@
+Identification  
+Based on the control description, the key control attributes are:  
+• Initiation of an access request by an HR employee when a new hire is onboarded  
+• Creation of a JIRA ticket capturing the new joiner’s role, department, and all required IT systems/services  
+• Explicit review and approval of that ticket by the delegated manager before any provisioning  
+• Granting of access by IT support only after approval  
+• Closure of the ticket once provisioning is complete  
+
+Indication  
+These attributes appear in the evidence as follows:  
+• Initiation by HR & capture of details  
+  – JIRA ticket SR-12345 created by Jane Smith (HR) on 3 Feb 2025 10:30  
+  – “Employee Details” section lists John Doe, title “IT Audit consultant,” department “IT Audit,” start date 09-04-2025  
+  – “Description” section explicitly lists the required mail groups and three IT Audit programs  
+• Manager review & approval  
+  – “Approval Logs” section names Max Powers as approver, with a signature block and timestamp “Goedgekeurd op vr., 28 feb. 2025 10:23”  
+• IT provisioning after approval  
+  – 3 Mar 2025 13:14 comment by Alex Ryders (IT Support) granting the two mail groups  
+  – 3 Mar 2025 16:21 comment granting IT Audit Programma 1  
+  – 3 Mar 2025 17:30 comment granting IT Audit Programma 2  
+  – 4 Mar 2025 09:53 Alex Ryders emails Jordan Smith to provision Programma 3  
+  – 6 Mar 2025 10:01 Jordan Smith confirms provisioning of Programma 3 and closes the ticket  
+• Ticket closure  
+  – “Gesloten op do., 6 maa. 2025 10:01” appears in the ticket header and is referenced in the final comment  
+
+Completeness  
+All critical evidence is present to confirm execution of the control:  
+• The ticket was raised by HR with all required details  
+• Manager approval predates any provisioning steps  
+• IT support’s detailed comments show step-by-step provisioning after approval  
+• The ticket is formally closed once provisioning is complete  
+
+Remarks  
+• The JIRA header field “Aangevraagd voor” shows Jane Smith rather than John Doe, which appears inconsistent with the “Employee Details” section. Clarification of which field drives the onboarding process in JIRA would help.  
+• The “Status” field in the ticket properties is shown as “Laag” (low) rather than a workflow status (e.g., “Approved,” “In Progress,” “Closed”), which may simply be a labeling issue.  
+• The manager’s approval appears as a scanned signature rather than a native JIRA workflow status. Evidence that the signature is captured in the ticket’s workflow audit trail would strengthen the linkage.  
+
+Conclusion  
+A. Fully supports – the evidence is complete, the request was initiated by HR with all required details, explicitly approved by the delegated manager before any access was granted, IT support provisioned exactly what was requested, and the ticket was closed thereafter.

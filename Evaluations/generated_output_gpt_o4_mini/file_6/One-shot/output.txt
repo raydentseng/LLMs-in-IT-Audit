@@ -1,0 +1,26 @@
+Identification:
+1. Ticket creation – a JIRA issue is opened when a new joiner is scheduled to start.  
+2. IT Helpdesk review and acceptance – the helpdesk evaluates the ticket and (if valid) marks it as “Accepted.”  
+3. Submission of access request in IdentityNow – the helpdesk submits the requested roles into the IdentityNow system.  
+4. Manager approval (if the ticket was not submitted by the joiner’s manager) – a required approval step before access is granted.  
+5. Provisioning of credentials and access rights – IdentityNow enacts the role assignments.  
+6. Distribution of credentials exactly seven days before the start date.  
+7. Ticket closure by the IT Helpdesk once all steps are complete.
+
+Indication:
+1. Ticket created by “Lars Rots” on 02/Jul/24 14:49 (file_6_page_2 and page_3 “Reporter: Lars Rots” and “Created: 02/Jul/24 14:49”).  
+2. IT Helpdesk acceptance evidenced by Nils van Tetter changing Status from “Open” to “Accepted [123]” on 09/Jul/24 14:00 (file_6_page_2).  
+3. Access request submission shown by Nils van Tetter’s 09/Jul/24 14:30 comment “Submitted the following in IdentityNow:” with a table of requested roles (file_6_page_2).  
+4. Provisioning confirmed by the IdentityNow email on 26/Jul/24 09:35 (“Access has been granted to the following roles… The status of Rons, Jan has changed from Inactive to Active.”) and the status change to “Is in IdentityNow [12450]” at 26/Jul/24 12:13 (file_6_page_2).  
+5. Instructions for credential delivery and execution: 26/Jul/24 14:00 comment “Share credentials with Jan Rons seven days before starting date. When done, close the ticket.” and 07/Aug/24 10:20 comment “Credentials shared with Jan Rons” (file_6_page_1).  
+6. Credentials were shared and ticket closed on 07/Aug/24 12:00, exactly seven days before the 14/Aug/24 start date (file_6_page_1 “New: Closed” and page_3 “Resolved: 07/Aug/24 12:00”).
+
+Completeness:
+The evidence documents all steps except for the mandatory manager approval. The ticket was created by Lars Rots, who is not the joiner’s manager (file_6_page_3 Excel “is_manager: FALSE” for Rots). There is no comment, status change or signature indicating that Jan Rons’s manager approved the request prior to provisioning.
+
+Remarks:
+- The “Delegates in IdentityNow” Excel snapshot lists who has the “is_manager” flag but does not show an actual approval action. It is unclear how or where manager approval would appear in this workflow.  
+- The ticket lacks a “Manager” field or any explicit approval log, so the control step requiring manager sign-off when the submitter is not the manager cannot be verified. Additional documentation (e-mail or JIRA approval workflow log) is needed to confirm that approval occurred.
+
+Conclusion:
+B. Does not fully support – the sequence of review, IdentityNow submission, provisioning, timed credential delivery, and closure is documented, but there is no evidence that the manager approved the access request as required.

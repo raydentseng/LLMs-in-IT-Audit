@@ -1,0 +1,22 @@
+### Identification
+1. User access requests must be authorized via a standardized form.
+2. Requests are submitted by the HR department to the ServiceDesk.
+3. The ServiceDesk is responsible for generating a ticket in TopDesk.
+4. VitalisIT will implement the necessary changes in the StaffLinkHR system.
+
+### Indication
+1. Page 1 shows an email from Jan Loods of HR to the ServiceDesk requesting access for new joiner Emma de Vries, indicating the initiation of access request.
+2. Page 2 displays a standardized access request form that includes necessary employee information (name, email, manager, role).
+3. Page 4 contains a TopDesk ticket generated for Emma de Vries, initiated by Mark Rover from the ServiceDesk, confirming the generation of a ticket as per the process.
+4. Page 5 indicates that access changes were implemented in StaffLinkHR on April 14, 2023, with confirmation that the account was set up correctly.
+
+### Completeness
+1. Evidence of explicit approval from the delegated manager (Jeroen van Dijk) is not provided. This approval is critical to confirm authorization of the user access request.
+
+### Remarks
+1. The lack of explicit approval from the manager is a notable omission that creates ambiguity regarding whether all access requests are truly authorized.
+2. The process for how the access request is tracked and verified after submission to the ServiceDesk may also require further clarification, especially regarding how approvals are documented.
+
+### Conclusion
+**B. Does not fully support**  
+The evidence is incomplete as it lacks the explicit manager approval needed to confirm the execution of the control. Without this crucial component, it cannot be definitively determined if the access request process has been followed completely and correctly. Further clarification regarding the approval process is necessary.

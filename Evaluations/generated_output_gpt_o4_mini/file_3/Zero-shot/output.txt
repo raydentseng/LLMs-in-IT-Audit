@@ -1,0 +1,29 @@
+Identification:
+- Ticket creation by IT  
+- Correct labeling of the ticket (“access”, “joiner”, “onboarding”)  
+- Approval from a delegate manager before provisioning  
+- IT‐performed provisioning of access  
+- Closure of the ticket after provisioning  
+
+Indication:
+- Ticket creation by IT: The “Melder” (requester) field shows Ronald Tijsen (IT) opened the Jira ticket SUP-2.  
+- Ticket labels: In the Jira Details panel, the “Labels” field contains exactly “access”, “joiner” and “onboarding.”  
+- Manager approval: In the activity stream an internal note quotes an email from Erica Kat (“I approve”), timestamped 12 June 2024, as a response to “RE: Approval new joiner Melanie Brinkhaltes.”  
+- Provisioning of access:  
+  • PowerShell output shows a user “Melanie Brinkhaltes” with an Active Directory account created on 21 June 2024 at 09:42 and status “Active.”  
+  • Active Directory Users and Computers screenshot shows “Melanie Brinkhaltes” in the Company→Users→Business Services OU alongside her peers.  
+- Ticket closure: The Jira ticket status is shown as “Opgelost” (Resolved) with a resolution date of 28 June 2024 at 13:05.  
+
+Completeness:
+- No evidence of specific group memberships or permissions assignments to confirm that Melanie’s access exactly matches Stevie van Tevie’s access rights and permissions.  
+- No Jira work-log entries or screenshots showing the actual provisioning actions taken by IT within the ticket (e.g., notes of group membership changes).  
+- The role or identity of “delegate manager” is not documented; it is assumed Erica Kat is the appropriate approver, but there is no organizational chart or approval matrix attached to validate her authority.  
+
+Remarks:
+- “Delegate manager” is undefined in the evidence—while Erica Kat approved, it isn’t clear from the ticket that she is the designated approver for Melanie’s role. A formal list of approvers or a link to the org chart would clarify this.  
+- The control specifically requires that access rights mirror an existing user (Stevie van Tevie). The ticket description states this requirement, but no evidence was provided to map Melanie’s groups/permissions to those of Stevie.  
+- The ticket’s “Request type” is “Onboard new employees,” which differs from “access” but the labels compensate; it would be clearer if the ticket category itself enforced the control (rather than relying solely on free‐form labels).  
+
+Conclusion:
+B. Does not fully support  
+Although the ticket was raised by IT, labeled correctly, approved by a manager, provisioned, and closed, critical evidence is missing to confirm that Melanie’s access rights were correctly mirrored to Stevie van Tevie. Additional documentation of group memberships or permission assignments, and formal validation of the approver’s authority, would be needed to fully support the control.

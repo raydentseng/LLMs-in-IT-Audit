@@ -1,0 +1,41 @@
+Identification  
+Based on the control description, the key attributes we expect to see are:  
+1. A ticket created by the IT department to request access for the new joiner.  
+2. The ticket must carry the labels “access”, “joiner” and “onboarding.”  
+3. A delegate manager must review and approve the request before any access is provisioned.  
+4. After approval, IT must perform the actual provisioning of access.  
+5. The ticket must be closed once provisioning is complete.  
+
+Indication  
+We review each attribute against the evidence in the three screenshots (file_7_page_1.png – Jira ticket, file_7_page_2.png – PowerShell, file_7_page_3.png – Active Directory):  
+1. Ticket creation by IT  
+   – In the Jira screenshot (page 1), the “Melder” (reporter) is shown as Ronald Tijsen (IT). This confirms the request was initiated by the IT department.  
+
+2. Required labels (“access”, “joiner”, “onboarding”)  
+   – On the right-hand panel of the same Jira ticket, under “Labels,” we see exactly:  
+     access      joiner      onboarding  
+
+3. Manager approval before provisioning  
+   – In the Jira ticket’s activity section (page 1), there is an embedded email from Erica Kat (erica.kat@achilles.com) sent to Nikki Tempel on 12 June 2024 with the subject “RE: Approval new joiner Melanie Brinkhaltes,” in which Erica states “I approve.” This serves as documented manager approval.  
+
+4. Evidence of provisioning by IT  
+   – The PowerShell output (page 2) shows that a user object “mbrinkhaltes” (FullName = Melanie Brinkhaltes) was created on 7 June 2024 at 10:42 and the account is Active.  
+   – The Active Directory Users and Computers screenshot (page 3) shows “Melanie Brinkhaltes” listed under the Company → Users → Business Services OU, confirming the AD account exists in the correct departmental container.  
+
+5. Ticket closure  
+   – On the Jira screenshot (page 1), the ticket’s “Resolution” is “Done,” the status shows a green “Opgelost” (resolved) badge and “Opgelost 28 Jun 2024” in the history.  
+
+Completeness  
+While the core steps are all documented, the following critical evidence is not present (or not sufficiently linked to the control owner’s criteria):  
+• Proof that Erica Kat was indeed the designated/delegate manager for Melanie’s Business Services role (we see her approval but not a manager-of-record list).  
+• Any ticket comment or system log entry explicitly recording “Provisioning complete” by IT inside the ticket itself. We infer provisioning from the AD snapshots, but there is no ticket-level confirmation.  
+• No explicit detail of which application-level or group-based access was granted beyond the base AD user creation. The control text refers broadly to “access rights,” not solely user accounts.  
+
+Remarks  
+• Manager delegation:  the mere presence of an “I approve” email does not prove that Erica Kat is authorised as Melanie’s manager or delegate. It would help to have a manager-of-record report or an HR-maintained delegation list.  
+• Definition of “provisioning”:  the screenshots cover basic AD account creation but do not show group memberships, mailbox provisioning, application entitlements etc. If the control is meant to cover all systems, further evidence (e.g., IdentityNow emails, Exchange provisioning logs, group-membership dumps) would be needed.  
+• Ticket audit trail:  best practice is to have each step (approval, provisioning, closure) logged directly on the ticket; here we see the approval email embedded but not a dedicated “approved” transition or provisioning comment.  
+
+Conclusion  
+B. Does not fully support  
+Although we can map each high-level control step to something in the evidence, key proof points (delegated-manager status, complete provisioning logs, explicit ticket comments for provisioning) are missing or only inferred. Additional artifacts or confirmation would be required to conclude the control is operating effectively end-to-end.

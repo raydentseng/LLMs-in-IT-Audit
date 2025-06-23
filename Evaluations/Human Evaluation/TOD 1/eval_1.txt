@@ -1,0 +1,20 @@
+Identification
+1. HR employee initiates access request by creating a ticket in JIRA.
+2. Ticket includes all relevant details regarding the new joiner’s role, department, and required IT systems.
+3. Access will only be provisioned after the ticket has been reviewed and explicitly approved by the delegated manager responsible for the new joiner.
+4. Once approved, IT support grants access to the specified systems.
+
+Indication
+1. At page 1, the ticket is created by Jane Smith from department HR, following from the ticket properties on 3 Feb 2025.
+2. At page 1, the ticket includes the relevant details in employee details and ticket description.
+3. At page 1, we inspect Max Powers to be the manager, and note that he approved on 28 Feb 2025.
+4. We inspect several comments at page 2 and page 3 that Alex Ryders and Jordan Smith from IT support granted the access.
+
+Completeness
+There is no evidence missing to confirm the execution of the control.
+
+Remarks
+1. The joiner has been granted access to the systems on 6 Mar, is he allowed to have access more than one month prior to the starting date?
+
+Conclusion
+A. Fully supports. The evidence is complete and matches the control description.

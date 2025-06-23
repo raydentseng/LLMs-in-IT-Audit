@@ -1,0 +1,24 @@
+Identification:
+1. Authorization – a standardized “Indiensttredingsformulier” (onboarding request form) signed by the hiring manager and handled by HR.  
+2. Submission – HR department sends the completed form to the ServiceDesk.  
+3. Ticketing – ServiceDesk generates a TopDesk ticket for the request.  
+4. Implementation – VitalisIT acts as the implementor, making the requested changes in StaffLinkHR.  
+5. Logging – changes in StaffLinkHR must reference the TopDesk ticket number.
+
+Indication:
+- Authorization: The second page is the standardized onboarding form (“Indiensttredingsformulier”) for Emma de Vries, complete with manager Jeroen van Dijk’s signature dated 3 April 2023.  
+- Submission: On page 1, an email from Jan Loos (Sr. HR Medewerker) dated 3 April 2023 is addressed to ServiceDesk with the form attached, requesting processing.  
+- Ticketing: On page 3, a TopDesk ticket titled “W1234 5678 Emma de Vries in dienst per 17-04-2023” shows Mark Rover of ServiceDesk as caller, category “Standaardaanvraag,” status “Gesloten.”  
+- Implementation: On the same TopDesk entry, the “Implementor” field is set to VitalisIT. On page 4, an email from VitalisIT (it@vitalis.com) dated 14 April 2023 confirms that the account and accesses are set in StaffLinkHR.  
+- Logging: On page 5, the “Vitalis_Rolwijzigingen_Log_Namen” Excel extract shows two entries on 14-04-2023 for devries.emma@vitalis.com (the required roles) with TicketNum “W1234 5678,” changedBy as.rob@vitalis.com.  
+- Evidence of successful implementation: On page 6, the StaffLinkHR screenshot shows Emma de Vries active with the roles “Zorgverlener – Dossierinzage en −registratie” and “Verpleegkundig specialist – Medicatiebeheer,” matching the form.
+
+Completeness:
+All critical steps of the control are evidenced: HR authorization, submission to ServiceDesk, ticket creation, implementor assignment, execution logged against the ticket, and final record in StaffLinkHR. No key attribute appears missing.
+
+Remarks:
+- The activation date in StaffLinkHR (14-04-2023) is before the official start date on the form (17-04-2023), but this is a scheduling/timing detail rather than a control failure.  
+- The TopDesk ticket screenshot provides sufficient detail; a more formal TopDesk audit log could further corroborate ticket creation, but the provided view is adequate.
+
+Conclusion:
+A. Fully supports – the evidence is complete and confirms each step of the control: a standardized, manager-signed form sent by HR; ServiceDesk ticket creation; VitalisIT implementation; and logging of changes in StaffLinkHR against the ticket.

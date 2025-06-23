@@ -1,0 +1,31 @@
+Identification:
+- Ticket initiation: Creation of a “Create user” ticket when a new joiner is scheduled.
+- Validity review and acceptance by IT Helpdesk.
+- Submission of access request in IdentityNow based on requested role(s).
+- Manager approval, if the ticket was not submitted by the new joiner’s manager.
+- Provisioning of credentials and access rights once approvals are in place.
+- Sharing of credentials exactly seven days prior to the start date.
+- Closure of the ticket by IT Helpdesk after credentials are shared.
+
+Indication:
+- Ticket initiation: “Lars Rots created issue – 02/Jul/24 14:49” for new joiner Jan Rons (start date 14/Aug/24).
+- Validity review & acceptance: On 09/Jul/24 14:00, Nils van Tetter changed Status from Open → Accepted [123], indicating the IT Helpdesk reviewed and accepted the ticket.
+- Access request submission: On 09/Jul/24 14:30, Nils comments “Submitted the following in IdentityNow” with the exact roles (“Software Engineer,” “Mailbox,” “PRD Backend developer”).
+- Provisioning confirmation: On 26/Jul/24 09:35, automated email from no-reply@identitynow.com confirms lifecycle state change to Active and shows each requested role as Done.
+- Role-based provisioning: The roles granted in IdentityNow match the roles requested in the ticket.
+- Credential sharing timing: On 07/Aug/24 10:20, Nils comments “Credentials shared with Jan Rons.” The start date is 14/Aug/24, so sharing occurred exactly seven days prior.
+- Ticket closure: On 07/Aug/24 12:00, Nils changed Resolution to Done and Status to Closed.
+
+Completeness:
+- No explicit record of a manager approval step, but in this instance the ticket was created by Lars Rots, who appears on the “Delegates in IdentityNow” spreadsheet with is_manager = TRUE. While the control condition (“if not submitted by the manager”) therefore did not apply, there is no direct documentation in the ticket confirming that Lars Rots is Jan Rons’s manager.
+- The evidence of the IT Helpdesk’s validity review is implied by the status change to Accepted; however, no internal checklist or criteria of that review is shown.
+- There is no snapshot of the actual IdentityNow approval workflow screen—reliance is on the email notification.
+
+Remarks:
+- The “People” section labels Lars Rots as Reporter and Jan Rons as Colleague. It is not explicit in the ticket that the Reporter is the new joiner’s direct manager; that relationship is inferred via the separate HR “is_manager” spreadsheet.
+- The control calls for manager approval only “if the ticket was not submitted by the new joiner’s manager.” In future audits, it would be clearer to have an explicit “Manager” field or approval record in the ticket to avoid any ambiguity.
+- The email from IdentityNow shows provisioning but does not capture whether any secondary approvals (e.g. segregation-of-duties reviews) took place. If such steps are part of the formal control, they should be documented.
+
+Conclusion:
+A. Fully supports – evidence is complete and confirms the correct execution of the control.
+Justification: The ticket lifecycle clearly shows creation, helpdesk acceptance, role-based provisioning via IdentityNow, credential sharing exactly seven days before start date, and ticket closure. Although minor clarifications around explicit manager designation and review criteria could strengthen documentation, there is no indication of a deviation from the described control process.

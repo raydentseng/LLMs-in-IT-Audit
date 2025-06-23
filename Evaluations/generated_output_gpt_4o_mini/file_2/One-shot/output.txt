@@ -1,0 +1,27 @@
+### Identification
+1. A ticket is created to initiate the onboarding process for a new joiner.
+2. The IT helpdesk reviews the ticket for validity.
+3. An access request is submitted based on the requested role.
+4. Approval from the new joiner's manager is required if the ticket was not submitted by them.
+5. Access rights and credentials are provisioned seven days before the start date.
+6. The ticket is closed by the IT helpdesk.
+
+### Indication
+1. **Ticket Creation**: The ticket for Jan Rons was created on 02 Jul 2024, as shown on page 3.
+2. **IT Helpdesk Review**: Indicated by comments from Nils van Tetter confirming the ticket status changes and actions taken.
+3. **Access Request Submission**: On 09 Jul 2024, Nils provided details about the roles submitted in IdentityNow, indicating the access request was made (page 2).
+4. **Manager Approval**: There is no direct evidence found that indicates whether Lars Rots, who created the ticket, is Jan Rons's manager, nor an explicit indicator of approval if applicable.
+5. **Credentials Sharing**: Credentials were shared on 07 Aug 2024, as noted on page 1.
+6. **Ticket Closure**: The ticket is shown as closed on 07 Aug 2024, indicating the completion of the process.
+
+### Completeness
+- The evidence does not clearly indicate whether Lars Rots is Jan Rons's manager or if their approval was required and obtained.
+- The specific timing of when the credentials were shared relative to the start date (should be exactly seven days) is not explicitly confirmed.
+
+### Remarks
+- The ambiguity regarding whether Lars Rots is Jan's manager needs confirmation for compliance with the approval process outlined in the control description.
+- The evidence lacks a clear statement that confirms the exact timing of credential sharing, as the requirement states this should happen exactly seven days before the start date.
+- A review of the organizational chart or confirmation via inquiry about the managerial relationship would be beneficial.
+
+### Conclusion
+B. Does not fully support - evidence is incomplete or unclear and may require additional clarification, but no clear deficiency is indicated. The ticketing process appears to have been followed, but critical details regarding managerial approval and exact credential sharing timing are missing, preventing full assurance of adherence to the control description.

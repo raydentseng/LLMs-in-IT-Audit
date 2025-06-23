@@ -1,0 +1,22 @@
+### Identification
+1. An access request is initiated by HR through a ticket in JIRA.
+2. The ticket contains details regarding the new employee's role, department, and required IT systems.
+3. The ticket must be reviewed and approved by the delegated manager.
+4. IT support grants the access after approval.
+
+### Indication
+1. On **page 1**, the evidence shows an access request ticket created in JIRA for John Doe, initiated by Jane Smith from HR. The ticket has the necessary details regarding the role and required systems.
+2. The **manager's name (Max Powers)** is noted under employee details, indicating who must approve the access.
+3. Evidence on **pages 2 and 4** shows follow-up emails between IT support and HR, indicating that the required IT systems access was granted after manager review.
+
+### Completeness
+- There is **no critical evidence missing** related to the initial ticket's approval by the manager. The workflow from request to approval is documented.
+
+### Remarks
+1. While the ticket mentions required systems, the **specific approvals** may need clearer documentation (e.g., an explicit approval statement from the manager for access).
+2. It would be useful to verify that the roles assigned to John Doe match the requested roles to ensure compliance with access control policies.
+
+### Conclusion
+**B. Does not fully support - evidence is incomplete or unclear and may require additional clarification, no clear deficiency is indicated.**
+
+Justification: While the ticket and follow-up provide a significant amount of information supporting the process, the lack of explicit documentation detailing managerial approval for access raises questions on compliance with the control description. Further clarification of the approval process would bolster the controls' support.

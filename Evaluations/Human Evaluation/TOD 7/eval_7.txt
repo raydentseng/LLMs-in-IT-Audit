@@ -1,0 +1,22 @@
+Identification
+1. Ticket is created by the IT department.
+2. Ticket has labels ‘access’, ‘joiner’, ‘onboarding’.
+3. Approval is required before access is provisioned.
+4. After approval, IT provides access.
+5. Ticket is closed.
+
+Indication
+1. At page 1, we inspect that Ronald Tijsen (IT) created a JIRA ticket on 10 Jun 2024.
+2. At page 1, we inspect that the ticket has the correct labels.
+5. At page 1, we inspect that the ticket was closed on 28 Jun.
+
+Completeness
+The evidence does not indicate the roles of both the new joiner and the mirror user.
+
+Remarks
+1. We inspect at page 2 that access was granted on 7 Jun. This violates the policy, as access is granted before date of approval. 
+2. We cannot verify whether the access of Stevie and Melanie are the same.
+3. We can not explicitly verify that Erica is the delegated manager.
+
+Conclusion
+C. Does not support. This evidence indicates a violation of the policy because access has been granted before approval.

@@ -1,0 +1,41 @@
+Identification  
+Based on the control description, the control consists of the following key attributes:  
+1. A standardized access‐request form must be used.  
+2. The HR department must submit that form to the ServiceDesk.  
+3. The ServiceDesk must generate a ticket in TopDesk.  
+4. VitalisIT must implement the requested access changes in the StaffLinkHR system.
+
+Indication  
+1. Standardized form & HR submission  
+   – File_4_page_1: An email “Van: Jan Loos, Sr. HR-Medewerker” is sent to the ServiceDesk on 3-4-2023 with the subject “Indiensttredingsformulier Emma de Vries 17-04-2023” and the standardized “Indiensttredingsformulier” attached.  
+   – File_4_page_2: The attached form has a fixed layout (“Indiensttredingsformulier”) showing employee data, required systems, and contains the manager’s signature.  
+
+2. Ticket generation in TopDesk by ServiceDesk  
+   – File_4_page_4: A record titled “W1234 5678 Emma de Vries in dienst per 17-04-2023” shows:  
+     • Caller: “Rover, Mark / ServiceDesk”  
+     • CallType/Category: “Standaardaanvraag”  
+     • Status: “Gesloten”  
+     • Implementor: “VitalisIT”  
+     • Under “Request” (04-04-2023 12:30): “Graag toegang inregelen voor new joiner Emma de Vries, zie gekoppelde bijlage.”  
+   That matches a TopDesk ticket created by the ServiceDesk team, referencing the HR form.  
+
+3. Implementation by VitalisIT and record in StaffLinkHR  
+   – File_4_page_4 (Action section): Email from “VitalisIT <it@vitalis.com>” on 14-04-2023 to ServiceDesk: “Bedankt voor het aangeleverde formulier. Het account en de juiste toegangen zijn ingeregeld en staan nu in StaffLinkHR.” Signed by Rob As, VitalisIT medewerker.  
+   – File_4_page_5: An extract of the “Vitalis_Rolwijzigingen_Log_Namen” shows on 14-04-2023 changedBy “as.rob@vitalis.com”, UserName “devries.emma@vitalis.com”, Role “Verpleegkundig specialist – Medicatiebeheer”, TicketNum “W1234 5678”.  
+   – File_4_page_6: A screenshot of StaffLinkHR for Employee VZG2025E89 “Emma de Vries”, status “Actief”, activation date 14-04-2023, with the two roles reflected exactly as requested.
+
+Completeness  
+All four control attributes are evidenced:  
+– The standardized form was used and attached.  
+– HR (Jan Loos) submitted it to the ServiceDesk.  
+– The ServiceDesk created TopDesk ticket W1234 5678.  
+– VitalisIT implemented the changes in StaffLinkHR and confirmed via email and system logs.  
+
+No critical step or evidence is missing.
+
+Remarks  
+– The inclusion of the Excel “Rollenmatrix Vitalis” (file_4_page_3) documents how roles map to MedCare but is not strictly necessary to prove this control—it does not hurt the evidence but could be confusing.  
+– It is assumed (but not labeled) that the “W1234 5678…” interface is TopDesk; the ticket layout, terminology (“CallType,” “Implementor”) is consistent with TopDesk. If needed, the client could clarify that this is indeed a TopDesk export.
+
+Conclusion  
+A. Fully supports – the evidence is complete, shows each required step, and confirms that the control operated as designed.

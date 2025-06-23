@@ -1,0 +1,29 @@
+### Identification
+**Control Attributes:**
+1. **Authorization Requirement:** User access requests must be authorized via a standardized form.
+2. **Submission Process:** Requests must be submitted by the HR department.
+3. **ServiceDesk Role:** The ServiceDesk must generate a ticket in TopDesk upon receiving the request.
+4. **Implementation Responsibility:** VitalisIT is responsible for implementing access changes in the StaffLinkHR system.
+
+### Indication
+**Identifying Attributes in Evidence:**
+1. **Authorization Requirement:** The "Indiensttredingsformulier" (employment entry form) shows that it was submitted, indicating proper documentation. The form is part of the evidence that HR authorized the request.
+2. **Submission Process:** An email from HRM to ServiceDesk indicates submission of the access request, fulfilling the control's requirement.
+3. **ServiceDesk Ticket:** Evidence includes the ServiceDesk ticket (W1234 5678) confirming that a ticket was created in response to the email request, which is documented within the ticket's details.
+4. **Implementation by VitalisIT:** An email from Rob As confirms that the account was set up and changes were made in StaffLinkHR, providing evidence of implementation.
+
+### Completeness
+**Missing Critical Evidence:**
+- There is no attachment of the actual standardized form submitted by HR; however, the email indicates a form was sent.
+- A direct reference to check if the changes were documented in a controlled log or log file of changes is absent. Documentation supporting the actual changes showing specific roles assigned would provide additional verifiability.
+
+### Remarks
+**Ambiguities/Clarifications Required:**
+- **Role Definition:** The specific roles this new user is being assigned to (Zorgverlener - Dossierinzage en -registratie and Verpleegkundig Specialist - Medicatiebeheer) should be more clearly defined in relation to the business processes. 
+- **Documentation of the Process:** The linkage between the standardized form, ticketing system, and final implementation should be explicitly documented in a centralized way to avoid any confusion in future audits.
+- **Time Frame:** The request states that access must be established before the start date (April 17, 2023) yet suggests that changes may have been made after that. Confirmation of timely execution is needed.
+
+### Conclusion
+**Classification:** B. Does not fully support - evidence is incomplete or unclear and may require additional clarification, no clear deficiency is indicated.
+
+**Justification:** While sufficient evidence exists to suggest that the control process was initiated and followed, the lack of the actual standardized form and documentation of roles within a controlled log weakens the assurance that the control is effectively executed. Additional evidence would solidify the complete execution of the control.

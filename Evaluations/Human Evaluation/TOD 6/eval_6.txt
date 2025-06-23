@@ -1,0 +1,26 @@
+Identification
+1. A ticket is created to initiate the onboarding process.
+2. IT helpdesk reviews the ticket for validity.
+3. If accepted, IT helpdesk submits an access request in IdentityNow.
+4. Manager submits or approves ticket before access is granted.
+5. After approval, access rights are provisioned.
+6. Credentials are shared exactly seven days before approval.
+7. Ticket is closed by IT helpdesk.
+
+Indication
+1. At page 1, we inspect a ticket with ticket number I 156 39876. On page 2, we inspect that Lars Rots created the ticket on 2 Jul.
+2. At page 2, we inspect that Nils van Tetter assigned himself to the ticket, and accepted the ticket on 9 Jul 14:00.
+3. At page 2, Nils van Tetter added a comment noting that he submitted the access request on 9 Jul 14:30.
+6. At page 1, Nils van Tetter commented that the credentials were shared on 7 Aug. This is exactly 7 days before starting date 14 Aug.
+7. At page 1, Nils van Tetter made changes, closing the ticket on 7 Aug at 12:00.
+
+Completeness
+The evidence does not provide an approval by a delegated manager.
+
+Remarks
+1. Nils van Tetter mentioned that credentials were shared, but does not provide evidence.
+2. The confirmation mail of access provisioning must be checked for validity.
+3. The Excel screen at page 3 indicates that Lars Rots is not a delegated manager. According to the policy, there is a missing approval.
+
+Conclusion
+B. Does not fully support. Based on this evidence, we cannot confirm that the evidence supports the control description. This is because we cannot confirm that Lars Rots is a delegated manager, and an approval is missing.

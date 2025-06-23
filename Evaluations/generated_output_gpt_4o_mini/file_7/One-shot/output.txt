@@ -1,0 +1,30 @@
+### Identification
+
+The control attributes based on the control description are:
+
+1. A ticket must be submitted by the IT department for a new joiner.
+2. The ticket should be labeled with "access," "joiner," and "onboarding."
+3. Approval from a delegate manager is required before provisioning access rights.
+4. IT is responsible for the provisioning of access rights.
+5. The ticket must be closed after implementation.
+
+### Indication
+
+1. **Ticket Submission**: The evidence in page 1 shows a ticket for onboarding a new joiner, Melanie Brinkhates, created by Ronald Tijsen from IT.
+2. **Labeling**: Page 1 indicates that the ticket is labeled with "access," "joiner," and "onboarding," confirming proper categorization.
+3. **Approval**: On page 1, there is an internal note where Erica Kat approves the request by Ronald Tijsen, fulfilling the requirement for manager approval.
+4. **Provisioning Responsibility**: Evidence from page 2 shows the user `melanie.brinkhates@achilles.com` on PowerShell, indicating that her account has been created and is active, which suggests IT has provisioned the access rights.
+5. **Ticket Closure**: Page 1 indicates that the ticket is marked as "resolved" and "closed" on the same date (28 Jun 2024).
+
+### Completeness
+
+No critical evidence is missing to confirm the execution of this control. The evidences provided confirm each step: ticket creation, necessary approvals, responsible provisioning, and ticket closure.
+
+### Remarks
+
+1. **Clarity on Delegation**: While Erica Kat's approval is visible, further clarification is needed to confirm her status as the delegated manager and whether she is authorized to approve access for new joiners.
+2. **Responsibility for Access Provisioning**: We need to ensure that the provisioning process that IT follows confirms the validity of approvals and that it aligns with the access rights detailed in the ticket, which is not explicitly clear from the evidence provided.
+
+### Conclusion
+
+**A. Fully supports** - The evidence is complete and confirms the correct execution of the control. The ticket was submitted with the required labels, received approval from the delegated manager, access rights were provisioned, and the ticket was subsequently closed. All control attributes are satisfied based on the evidence provided.

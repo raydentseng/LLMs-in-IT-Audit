@@ -1,0 +1,24 @@
+### Identification
+1. **Ticket Creation**: An HR employee must create a ticket in JIRA for access requests.
+2. **Details Included**: The ticket should include relevant details about the new joiner's role, department, and required IT systems.
+3. **Approval Requirement**: Access is only provisioned following explicit approval from the delegated manager.
+4. **Access Provisioning**: IT support grants access to the specified systems after the approval.
+5. **Completion**: The process is considered complete after access has been granted and the ticket closed.
+
+### Indication
+1. **Page 1**: The ticket for John Doe was created by an HR employee (Jane Smith) on February 3, 2025, indicating initiation by the appropriate department.
+2. **Page 1**: The ticket contains detailed information about John Doe’s role (IT Audit), department (IT Audit), and required access.
+3. **Page 1**: Approval from the delegated manager (Max Powers) is visible, dated February 28, 2025, confirming the approval before accessing systems.
+4. **Pages 2-3**: Access to the specified IT systems (IT Audit Programma 1, 2, and 3) was provisioned by IT support after approval, as indicated by comments.
+5. **Page 1**: The ticket was officially closed on March 6, 2025.
+
+### Completeness
+While the evidence appears to cover the necessary actions, the evidence doesn't explicitly confirm:
+- The moment at which access was granted relative to the approval. The dates show actions occurring in quick succession but lack explicit timestamps detailing if access was granted right after approval.
+
+### Remarks
+1. The ticket contains enough information regarding details of John Doe and the necessary approvals. However, timestamps on access provision should ideally demonstrate compliance with the policy.
+2. The approval is confirmed, but reviewing further documentation would clarify if access could potentially be granted before the approval.
+
+### Conclusion
+**B. Does not fully support** - The evidence is mostly complete, but the precise timing of when access was granted relative to the approval is ambiguous. Additional details or comments indicating the exact execution timelines could further solidify compliance with the control description.

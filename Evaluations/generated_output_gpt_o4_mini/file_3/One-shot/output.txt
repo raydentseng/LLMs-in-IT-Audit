@@ -1,0 +1,23 @@
+Identification  
+1. Ticket creation by IT department for a new-joiner access request.  
+2. Ticket labeled with “access”, “joiner”, and “onboarding.”  
+3. Approval obtained from a delegate manager before provisioning.  
+4. IT provisioning of access.  
+5. Closure of the ticket after implementation.  
+
+Indication  
+1. Ticket creation by IT: On page 1 the Jira issue “Onboarding new joiner Melanie Brinkhaltes” was opened by Ronald Tijsen (IT), as shown by his name and role in the header.  
+2. Correct labels: On page 1, the “Labels” field on the right lists access, joiner, onboarding.  
+3. Delegate manager approval: Also on page 1, an internal note shows Erica Kat (<erica.kat@achilles.com>) responding “I approve.” The header of that note shows it was added to the ticket on 12 Jun 2024.  
+4. IT provisioning: On page 2, a PowerShell extract shows the Active Directory user mbrinkhaltes (Melanie Brinkhaltes) created 21 Jun 2024 with status Active; on page 3, the AD Users & Computers view lists her in the Business Services OU.  
+5. Ticket closure: On page 1 the Jira status “Opgelost” (Solved) is selected and the ticket shows “Gereed,” with a solved date of 28 Jun 2024.  
+
+Completeness  
+All critical evidence elements are present: the ticket originates from IT, bears the required labels, contains manager approval before provisioning, shows the actual account creation, and demonstrates ticket closure. No key steps are unaccounted for.  
+
+Remarks  
+– The evidence does not explicitly identify Erica Kat’s title or role as the delegate manager, though her approval is recorded. A manager roster or signature line would strengthen confirmation that she was authorized to approve.  
+– Provisioning proof is limited to Active Directory; if other systems were in scope, additional screenshots or logs would be needed.  
+
+Conclusion  
+A. Fully supports – The evidence is complete, in proper sequence (creation → approval → provisioning → closure), and matches the control description.

@@ -1,0 +1,33 @@
+Identification  
+- Control owner: HR employee initiates a ticket in JIRA when a new joiner is hired  
+- Ticket contents: new joiner’s name, role, department, manager, start date, and list of required IT systems  
+- Manager review and explicit approval of the ticket before any access is granted  
+- IT support grants access only after approval  
+- Ticket closure once all access provisioning steps are complete  
+
+Indication  
+- Ticket creation by HR: “door Jane Smith (jane.smith@shield.com) op ma., 3 feb. 2025 10:30 via Indiensttreding van werknemers” in the header  
+- New‐joiner details captured:  
+  • “Employee Details” section shows John Doe’s full name, job title (IT Audit consultant), department (IT Audit), manager (Max Powers <max.powers@shield.com>), start date (09-04-2025)  
+  • “Description” lists required mail groups (ITAudit | Shield, AllDepartments | Shield) and applications (IT Audit Programma 1, 2, 3)  
+- Access provisioning by IT:  
+  • 3 May 2025 13:14 – Alex Ryders notes mail-group provisioning  
+  • 3 May 2025 16:21 – Alex Ryders provisions IT Audit Programma 1  
+  • 3 May 2025 17:30 – Alex Ryders provisions IT Audit Programma 2  
+  • 6 May 2025 10:01 – Jordan Smith provisions IT Audit Programma 3 and closes the ticket  
+
+Completeness  
+- No entry or comment from the manager (Max Powers) explicitly approving the ticket prior to access provisioning  
+- The JIRA field “Opdrachtgever” (requestor/approver) is blank—no audit trail of manager review or sign-off  
+- No timestamped “Approved by” workflow transition or e-mail from the manager captured in the ticket  
+
+Remarks  
+- The field “Aangevraagd voor” incorrectly shows Jane Smith rather than the new joiner (John Doe), casting doubt on consistency of request metadata  
+- The watermark “GOEDGEKEURD” is present but unexplained—no indication who or when that stamp was applied  
+- “Status” is shown as “Laag” (Low) rather than a status such as “Pending approval” or “Approved,” making the workflow state ambiguous  
+- Additional clarification needed on:  
+  • The JIRA approval workflow step and how manager approvals are recorded  
+  • Whether manager approval could have occurred outside JIRA (e-mail, verbally) and if so how it is linked back to the ticket  
+
+Conclusion  
+C. Does not support – The evidence shows IT provisioning exactly as requested but fails to demonstrate the required explicit manager approval step. Because a key control attribute (manager review and sign-off) is missing from the record, the control as described has not been fully executed.

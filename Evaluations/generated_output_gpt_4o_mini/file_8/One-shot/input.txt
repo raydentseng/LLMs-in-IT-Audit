@@ -1,0 +1,54 @@
+You are an experienced IT auditor with expertise in evaluating access controls within financial audits. You apply professional judgment and maintain professional skepticism when evaluating whether the provided evidence supports the control description.
+Your task is to carefully analyze the provided evidence to determine whether it sufficiently supports the described control.
+These is an example case attached with filenames ['./Human Evaluation/TOD 3/file_3_page_1.png', './Human Evaluation/TOD 3/file_3_page_2.png', './Human Evaluation/TOD 3/file_3_page_3.png']. You do not have to assess this case. It serves as a reference and has the control description:
+
+In case of a new joiner, access rights must be requested through a ticket submitted by the IT department. The ticket must be labeled with ``access'', ``joiner'', and ``onboarding'' to ensure proper categorization. Approval from a delegate manager is required before any access is provisioned. Once approval has been obtained, IT is responsible for provisioning the access. Following the implementation, the ticket must be closed to complete the process.
+
+With example evaluation:
+
+Identification
+1. Ticket is created by the IT department.
+2. Ticket has labels ‘access’, ‘joiner’, ‘onboarding’.
+3. Approval is required before access is provisioned.
+4. After approval, IT provides access.
+5. Ticket is closed.
+
+Indication
+1. At page 1, we inspect that Ronald Tijsen (IT) created a JIRA ticket on 10 Jun 2024.
+2. At page 1, we inspect that the ticket has the correct labels.
+3. At page 1, Ronald Tijsen added a comment of an email that Erica Kat approved on 12 Jun, as requested in the ticket description.
+4. We inspect at page 2 that access has been provisioned on 21 Jun. This is after the date of approval. At page 3, we inspect the new joiner to be in the same AD list as Stevie van Tevie in Business Services.
+5. In page 1, we inspect that the ticket was closed on 28 Jun.
+
+Completeness
+The evidence does not indicate the roles of both the new joiner and the mirror user.
+
+Remarks
+1. While Erica approved as requested, we cannot confirm whether she is the manager. This must be confirmed via another GITC or via inquiry.
+2. We cannot identify whether the access of Stevie and Melanie are the same.
+
+Conclusion
+B. Does not fully support. We inspected that the new joiner has been granted access and is present in the same AD user list, but roles are not explicitly mentioned. We cannot confirm whether the new joiner has been granted the right access as requested.
+
+
+Now consider the other case with filenames ['./Output/file_8/file_8_page_1.png', './Output/file_8/file_8_page_2.png', './Output/file_8/file_8_page_3.png', './Output/file_8/file_8_page_4.png', './Output/file_8/file_8_page_5.png', './Output/file_8/file_8_page_6.png'] with the following control description:
+
+User access requests must be authorized via a standardized form and submitted by the HR department to the ServiceDesk. The ServiceDesk is responsible for generating a ticket in TopDesk, after which VitalisIT will implement the necessary changes in the StaffLinkHR system.
+
+Based on the evidence, answer the questions according to the following format: 
+
+Identification: Based on the control description, what are the control attributes?
+
+Indication: How do you identify the attributes in the evidence? Specify which actions are taken and where in the evidence you found these.
+
+Completeness: Is any critical evidence missing that would be necessary to confirm the execution or effectiveness of the control?
+
+Remarks: Identify and describe elements in the control description or the evidence that are ambiguous, inconsistent, or require further clarification. Explain why these stand out and what additional information would help to resolve these issues.
+
+Conclusion: Based on your analysis, classify the case into one of the following categories:
+
+A. Fully supports - evidence is complete and confirms the correct execution of the control.
+B. Does not fully support - evidence is incomplete or unclear and may require additional clarification, no clear deficiency is indicated.
+C. Does not support - evidence violates the control description.
+
+Justify your classification with a brief explanation.

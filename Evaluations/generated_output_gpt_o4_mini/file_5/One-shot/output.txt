@@ -1,0 +1,23 @@
+Identification:
+1. HR ticket initiation in JIRA.  
+2. Ticket must include new joiner’s name, role, department, and list of required IT systems.  
+3. Delegated manager must explicitly review and approve the ticket.  
+4. IT support must provision access only after that approval.
+
+Indication:
+1. On file_5_page_1 (the JIRA ticket header), we see “Employee Onboarding Request John Doe #SR-12345” created by Jane Smith (jane.smith@shield.com) on 3 Feb 2025 – indicating HR initiated the ticket.  
+2. The “EMPLOYEE DETAILS” and “DESCRIPTION” sections (page 1) list John Doe’s full name, job title (“IT Audit consultant”), manager (“Max Powers <max.powers@shield.com>”), department (“IT Audit”), start date (09-04-2025) and the precise mail groups and applications required (ITAudit|Shield, AllDepartments|Shield; IT Audit Programma 1, 2, 3).  
+3. At the top right of page 1 the ticket is stamped “GOEDGEKEURD” (approved) – indicating that an approval occurred in the JIRA workflow.  
+4. On file_5_page_2, private comments by Alex Ryders (IT Support) on 3 May 2025 show he granted access to the two mail groups and to Programma 1 and 2. A subsequent outbound email from Alex (4 May 2025) requests Jordan Smith to grant Programma 3, and Jordan’s outbound email on 6 May 2025 confirms granting Programma 3 and closing the ticket – demonstrating that IT support provisioned the specified access only after approval.
+
+Completeness:
+• There is no explicit entry or comment from the delegated manager (Max Powers) showing he reviewed and approved the request. The “GOEDGEKEURD” label implies approval but lacks detail on who performed it and when.  
+• No screenshot or audit log of the JIRA approval step (e.g. assignment to manager, manager’s approval action) is provided.
+
+Remarks:
+• The field “Aangevraagd voor” on page 1 oddly lists Jane Smith rather than John Doe – this inconsistency in the target user field should be clarified to ensure the ticket truly pertains to John Doe.  
+• The approval label (“GOEDGEKEURD”) is ambiguous: best practice would be a visible manager’s comment or timestamped approval action.  
+• There is a multi-month gap between ticket creation (3 Feb) and provisioning (3–6 May) with no interim status updates visible; it would be helpful to see the workflow transitions or status changes that occurred between those dates.
+
+Conclusion:
+B. Does not fully support – while HR clearly created a detailed JIRA request and IT support provisioned exactly the access listed, there is insufficient evidence of the explicitly documented manager approval. Additional evidence of manager sign-off in the ticket workflow is needed to fully confirm the control’s operation.

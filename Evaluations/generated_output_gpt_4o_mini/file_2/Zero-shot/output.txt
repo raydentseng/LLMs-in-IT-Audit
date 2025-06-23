@@ -1,0 +1,29 @@
+### Identification
+Based on the control description, the control attributes are:  
+1. **Ticket creation** for onboarding process.
+2. **Review** of the ticket by IT helpdesk for validity.
+3. **Access request submission** in IdentityNow based on the role requested.
+4. **Manager approval** required if ticket submitted by someone other than the manager.
+5. **Provisioning of credentials and access rights**.
+6. **Credentials shared** exactly seven days before the start date.
+7. **Closing the ticket** by the IT helpdesk.
+
+### Indication
+1. **Ticket Creation**: The evidence shows that a ticket was created on **02/Jul/24**.
+2. **Ticket Review**: The evidence indicates the ticket was **accepted** by the IT Helpdesk on **09/Jul/24**.
+3. **Access Request Submission**: The comment on **09/Jul/24** shows "Submitted the following in IdentityNow."
+4. **Manager Approval**: There is no explicit mention of a manager's approval in the evidence provided.
+5. **Provisioning of Credentials**: The credentials were stated to be shared on **07/Aug/24**, which is **7 days before** the start date.
+6. **Closing of the Ticket**: The status was updated from **In Progress** to **Closed** on **07/Aug/24**.
+
+### Completeness
+- **Missing Evidence**: The most critical missing evidence is the explicit **manager approval**. There is no documentation confirming that the manager approved the ticket, which is essential, especially since the control requires manager approval if the ticket was not submitted by them.
+
+### Remarks
+- **Ambiguous Elements**: The description states that the ticket must be submitted by the new joiner's manager, but it is unclear who submitted the ticket. While Lars Rots seems to be the reporter, additional clarification on the manager's role and the submission process would be beneficial.
+- **Clarification Needed**: To resolve these ambiguities, we would need to confirm who submitted the ticket and whether the manager's approval was documented and followed according to procedure.
+
+### Conclusion
+**B. Does not fully support** - evidence is incomplete or unclear and may require additional clarification, no clear deficiency is indicated. 
+
+**Justification**: While the evidence confirms certain control activities, it lacks documentation of the manager's approval, which is essential for compliance with the control description. Therefore, the evidence does not fully support the control.

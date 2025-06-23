@@ -1,0 +1,36 @@
+Identification  
+Based on the control description, the attributes we would expect to see are:  
+1. A ticket is created to initiate the onboarding process.  
+2. The IT helpdesk reviews the ticket for validity and—if valid—“accepts” it.  
+3. An access request is submitted in IdentityNow, mapping to the roles requested on the ticket.  
+4. If the ticket was not originally submitted by the new-joiner’s manager, a manager approval step occurs.  
+5. Once approvals are in place, credentials and access rights are provisioned.  
+6. Credentials are shared exactly seven days prior to the start date.  
+7. The ticket is closed by the IT helpdesk after provisioning and credential sharing are complete.  
+
+Indication  
+1. Ticket creation (Attribute 1)  
+   – Page 2 (“People / Dates”): “Created: 02/Jul/24 14:49” by Lars Rots (Reporter).  
+2. IT helpdesk review and acceptance (Attribute 2)  
+   – Page 2, activity on 09/Jul/24 14:00: Status changes from “Open” to “Accepted [123]” and Assignee changes from “IT Helpdesk” to “Nils van Tetter.”  
+3. Submission of the IdentityNow access request (Attribute 3)  
+   – Page 2, comment on 09/Jul/24 14:30 by Nils van Tetter: “Submitted the following in IdentityNow:” followed by a table of roles exactly matching the ticket’s “Role(s): Backend Developer” (page 1).  
+4. Manager approval (Attribute 4)  
+   – No explicit approval record is present, but page 2 shows Reporter = Lars Rots. Page 3 (Delegates in IdentityNow spreadsheet) lists “Rots, lars.rots@ayia.com” with is_manager = TRUE. Because the ticket was created by the manager, no separate approval step was required under the control.  
+5. Provisioning of credentials and access rights (Attribute 5)  
+   – Page 2, comment on 26/Jul/24 12:13 records the email from no-reply@identitynow.com sent at 09:35 that same morning: “Access has been granted to the following roles: … Done.” Status changes from “Accepted [123]” to “In IdentityNow [12450].”  
+6. Credentials shared exactly seven days before start date (Attribute 6)  
+   – Page 1 (“Starting date: 14/Aug/24”), and page 1 activity on 07/Aug/24 10:20: “Credentials shared with Jan Rons.” That is exactly 7 days prior.  
+7. Ticket closure (Attribute 7)  
+   – Page 1, activity on 07/Aug/24 12:00: Resolution changes to “Done” and Status to “Closed.”  
+
+Completeness  
+All critical steps in the control description are evidenced: the ticket’s lifecycle from creation, through IT validation and IdentityNow submission, to provisioning, credential sharing at exactly seven days before start, and final closure.  
+
+Remarks  
+– Manager approval: There is no explicit “Approved by manager” comment, but the reporter (Lars Rots) is confirmed as the employee’s manager via the delegates spreadsheet. Under the control, a separate approval is only required if the ticket is not manager-initiated, so this is acceptable.  
+– Status codes “[123]” and “[12450]” are system-specific. We assume “[12450] = ‘In IdentityNow’” equates to “provisioning complete,” but a mapping reference would be helpful.  
+– The “Active Hardware: None” field on page 1 is irrelevant to the control but does not affect the conclusion.  
+
+Conclusion  
+A. Fully supports – the evidence is complete and demonstrates that each step of the control was performed in the correct sequence and in accordance with the requirement.

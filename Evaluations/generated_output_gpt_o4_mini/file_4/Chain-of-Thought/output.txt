@@ -1,0 +1,30 @@
+Identification  
+Control attributes are:  
+• Use of a standardized access request form (“Indiensttredingsformulier”).  
+• Authorization of the request on that form (manager’s signature).  
+• Submission of the form by HR to the ServiceDesk.  
+• Creation of a TopDesk ticket by the ServiceDesk.  
+• Implementation of the requested access changes in StaffLinkHR by VitalisIT.  
+
+Indication  
+1. Standardized form and authorization:  
+   – The attached “Indiensttredingsformulier Emma de Vries” (page 2) shows all required fields completed and is signed by the manager (Jeroen van Dijk, dated 3 April 2023).  
+2. Submission by HR to ServiceDesk:  
+   – Email from Jan Loos (Sr. HR Medewerker) on 3 April 2023 at 13:59 addressed to ServiceDesk with the form attached (page 1).  
+3. Ticket generation in TopDesk:  
+   – TopDesk ticket W1234 5678 (page 4) was opened by ServiceDesk analyst Mark Rover on 4 April 2023, category “Standaardaanvraag,” status “Gesloten.”  
+4. Implementation by VitalisIT in StaffLinkHR:  
+   – Action email from VitalisIT (Rob As) dated 14 April 2023 confirms “Het account en de juiste toegangen zijn ingeregeld en staan nu in StaffLinkHR.” (page 4).  
+   – The role-change log (“Vitalis_Rolwijzigingen_Log_Namen,” page 5) shows two entries on 14 April 2023 by as.rob@vitalis.com for user devries.emma@vitalis.com, roles matching the form, ticket W1234 5678.  
+   – The StaffLinkHR user record (page 6) shows Emma de Vries active as of 14 April 2023 with roles “Zorgverlener – Dossierinzage en -registratie” and “Verpleegkundig specialist – Medicatiebeheer,” and the correct team assignment.  
+
+Completeness  
+All key steps in the control are evidenced. One item not shown is implementation of mailbox group authorizations noted on the form; however, mailbox provisioning may be managed outside StaffLinkHR and was not in scope of the described control (which focuses on StaffLinkHR). If mailbox changes are considered part of “necessary changes,” evidence of those updates would be needed.  
+
+Remarks  
+• The form also requests physical‐access badges and laptop issuance, but the control description refers only to “changes in the StaffLinkHR system.” Clarification of scope (logical vs. physical access) would help.  
+• The TopDesk screenshot does not explicitly show the attached form; it would strengthen evidence to see the attachment icon or document link.  
+• It is unclear whether the ServiceDesk ticket was acknowledged back to HR. A copy of the ticket assignment or acknowledgement to HR could further confirm the process handoff.  
+
+Conclusion  
+A. Fully supports – the evidence is end-to-end and confirms that HR used the standardized form, the ServiceDesk opened a TopDesk ticket, VitalisIT implemented the requested roles in StaffLinkHR, and the changes are documented both in the role-change log and in the StaffLinkHR user record.

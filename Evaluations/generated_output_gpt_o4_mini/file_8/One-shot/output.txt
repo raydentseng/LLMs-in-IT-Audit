@@ -1,0 +1,29 @@
+Identification  
+• Standardized access request form (“Indiensttredingsformulier”).  
+• Submission of that form by HR to the ServiceDesk.  
+• Creation of a ticket in TopDesk by the ServiceDesk.  
+• Implementation of requested changes by VitalisIT in StaffLinkHR.  
+
+Indication  
+1. On page 2 (file_8_page_2.png) we see the standardized “Indiensttredingsformulier Emma de Vries” with fields for system access and roles.  
+2. On page 1 (file_8_page_1.png) Jan Loos (Sr. HR Medewerker) emails the form to ServiceDesk requesting onboarding for Emma de Vries.  
+3. On page 4 (file_8_page_4.png) a TopDesk ticket (W1234 5678) exists, caller “Rover, Mark” from ServiceDesk, request summary “Emma de Vries in dienst per 17-04-2023”. Status “Gesloten” shows the ticket was closed.  
+4. Also on page 4, in the “Action” section, Rob As (VitalisIT) confirms by email (14 Apr 2023) that “account en de juiste toegangen zijn ingeregeld en staan nu in StaffLinkHR”.  
+5. On page 5 (file_8_page_5.png) the “Vitalis_Rolwijzigingen_Log_Namen” shows two role-assignment entries for devries.emma@vitalis.com on 14-04-2023 under ticket W1234 5678.  
+6. On page 6 (file_8_page_6.png) the StaffLinkHR interface shows “Emma de Vries” active as of 14-04-2023 with two roles assigned.  
+
+Completeness  
+• We have all stages of the process documented (form, email, ticket, implementation log, system view).  
+• However, the log entries and StaffLinkHR screenshot do not match the roles requested on the form. The form requested:  
+  – Primaire rol: “Zorgverlener – Dossierinzage en ­-registratie”  
+  – Extra rol: “Verpleegkundig specialist – Medicatiebeheer”  
+  The log shows assignment of “Zorgverlener – Dossierinzage en ­-registratie” and instead of the requested “Verpleegkundig specialist – Medicatiebeheer” a “Coördinator – Nachtverslaglegging” role was applied. We cannot confirm the requested extra role was implemented.  
+
+Remarks  
+• The “Coördinator – Nachtverslaglegging” role appears in both the log and StaffLinkHR; that role was not specified on the HR form.  
+• The requested “Verpleegkundig specialist – Medicatiebeheer” role does not appear in the evidence of role assignments.  
+• It is unclear whether the mismatch is a logging/UI issue or a mis-implementation by VitalisIT. Clarification from VitalisIT or a comparison to an authoritative role-mapping matrix would resolve this.  
+
+Conclusion  
+B. Does not fully support.  
+• The control-process steps (form, submission, ticket, implementation) are evident and the ticket was closed, but we cannot confirm that VitalisIT implemented the exact roles requested by HR. Additional inquiry is needed to resolve the discrepancy in assigned roles.

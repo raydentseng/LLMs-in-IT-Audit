@@ -1,0 +1,30 @@
+Identification  
+• Ticket submission – the onboarding request must be raised as a ticket by IT.  
+• Ticket labeling – the ticket must carry the labels “access”, “joiner” and “onboarding.”  
+• Delegate manager approval – no provisioning may occur until approved by the delegate manager.  
+• IT provisioning – after approval, IT must create or enable the user account with the requested rights.  
+• Ticket closure – the ticket must be formally closed once provisioning is complete.
+
+Indication  
+• Ticket submission & creator: Jira screenshot “Onboarding new joiner Melanie Brinkhaltes” shows requester Ronald Tijsenn (IT), ticket created 10 Jun 2024 10:12.  
+• Ticket labeling: under “Labels” the values are exactly “access”, “joiner”, “onboarding.”  
+• Delegate manager approval: an internal note from Erica Kat (erica.kat@achilles.com) dated 12 Jun 2024 11:13 states “I approve.”  
+• IT provisioning evidence:  
+  – PowerShell output (dated 16-Apr-2025 09:58) shows user “Melanie Brinkhaltes” created on 21 Jun 2024 09:42, Status Active, Email set.  
+  – ADUC screenshot shows “Melanie Brinkhaltes” in the Business Services OU alongside Stevie van Tevie.  
+• Ticket closure: Jira shows status “Opgelost” (solved) on 28 Jun 2024 13:05, indicating the ticket was closed.
+
+Completeness  
+• No evidence that Melanie was assigned the same specific access rights or group memberships as Stevie van Tevie, as requested in the ticket description.  
+• The ticket record contains no entry or comment documenting that IT actually performed the provisioning steps (e.g., “groups added,” “applications enabled”).  
+• No comparison report or audit of group memberships to prove rights were mirrored from Stevie to Melanie.  
+• The resolution comment field (if any) is not visible; we cannot confirm IT documented completion details in the ticket itself.
+
+Remarks  
+• The ticket type is “Onboard new employees” rather than explicitly “access,” though the labels are correct – control description is ambiguous on whether both type and labels matter.  
+• Provisioning date (21 Jun) precedes the official start date (24 Jun); is pre-staging allowed under the control? Clarification of timing requirements would help.  
+• ADUC screenshot only shows OU membership; OU placement may not guarantee identical permissions to another user. A group membership or entitlement snapshot would be clearer.  
+• No visible sign-off on provisioning in the ticket – control description implies a “close” after provisioning, but absence of a provisioning log in the ticket leaves a gap.
+
+Conclusion  
+B. Does not fully support – All key control steps (ticket, labels, approval, provisioning, closure) are evidenced, but critical details on how provisioning matched the request (same rights as the comparator user) and documentation of the provisioning activity within the ticket are missing. Additional evidence is needed to confirm the effectiveness and completeness of the provisioning step.

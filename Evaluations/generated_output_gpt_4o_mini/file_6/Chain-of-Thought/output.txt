@@ -1,0 +1,35 @@
+### Identification
+**Control Attributes:**
+1. **Ticket Creation:** A ticket is created to initiate the onboarding process for a new joiner.
+2. **Validation by IT Helpdesk:** The IT helpdesk reviews the ticket for validity.
+3. **Access Request Submission:** If accepted, the IT helpdesk submits an access request in IdentityNow based on the requested role.
+4. **Manager Approval:** If the ticket was not submitted by the manager, the manager must approve it before access is granted.
+5. **Provisioning of Access:** Once approvals are in place, credentials and access rights are provisioned.
+6. **Timing of Credential Sharing:** Credentials are shared exactly seven days before the start date.
+7. **Ticket Closure:** The ticket is then closed by the IT helpdesk.
+
+### Indication
+**Identification in Evidence:**
+1. **Ticket Creation:** The evidence shows that a ticket was created on **02/Jul/24** with the details of the new joiner, Jan Rons, confirming the initiation of onboarding.
+2. **Validation by IT Helpdesk:** The ticket status changes from "Open" to "Accepted," indicating it was reviewed by the IT helpdesk.
+3. **Access Request Submission:** On **09/Jul/24**, it shows that relevant information was submitted in IdentityNow.
+4. **Manager Approval:** The evidence does not explicitly mention manager approval prior to access provisioning.
+5. **Provisioning of Access:** Access was granted with a comment noting that credentials were shared with Jan Rons.
+6. **Timing of Credential Sharing:** The credential-sharing comment dated **26/Jul/24** confirms that credentials were provided seven days before the start date (14/Aug/24).
+7. **Ticket Closure:** The ticket status shows it was closed on **07/Aug/24**.
+
+### Completeness
+**Missing Evidence:**
+1. **Manager Approval:** There is no evidence showing that a manager approved the ticket if not created by themselves, which is critical to the control description.
+2. **Review Process:** Details of how the ticket was validated by the IT helpdesk (specific checks performed) are not documented.
+3. **Audit Trail of Changes:** A complete audit trail showing who made changes at each stage could bolster evidence.
+
+### Remarks
+1. **Manager Approval:** The lack of evidence regarding manager approval is a significant gap. Further clarification on the manager's involvement and the approval process is necessary.
+2. **Validation Process:** More details on the criteria used by the IT helpdesk to validate the ticket, including any documentation or system notes, would provide better insight into adherence to the control.
+3. **Timeline Clarity:** While the evidence reflects the timeline of actions taken, it does not explicitly confirm that the correct procedures were followed at each step.
+
+### Conclusion
+**Classification: B. Does not fully support.**
+
+**Justification:** The evidence aligns with many aspects of the control description; however, the absence of documented manager approval creates uncertainty around the control’s execution. The evidence is incomplete and requires additional clarification to confirm effectiveness while not indicating a clear deficiency.

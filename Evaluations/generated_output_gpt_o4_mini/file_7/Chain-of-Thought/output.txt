@@ -1,0 +1,35 @@
+Identification  
+Control attributes derived from the description:  
+ 1. Request initiation by the IT department.  
+ 2. Ticket categories/labels: “access”, “joiner”, “onboarding”.  
+ 3. Approval by a delegate manager before any access is granted.  
+ 4. IT is responsible for provisioning the access after approval.  
+ 5. Closure of the ticket once provisioning is complete.  
+
+Indication  
+1. Request initiation  
+   – In the Jira screenshot the ticket “SUP-2 Onboarding new joiner Melanie Brinkhaltes” was created by “Ronald Tijsn (IT)”.  
+2. Ticket labeling  
+   – In the ticket’s detail panel, the Labels field lists “access”, “joiner”, “onboarding”.  
+3. Delegate manager approval  
+   – Under Activity → Opmerkingen, there is an internal note containing a forwarded email from Erica Kat (erica.kat@achilles.com), sent 12 Jun 2024 at 11:13, stating “I approve.” This appears to be the only evidence of managerial sign-off.  
+4. IT provisioning  
+   – A Windows PowerShell screenshot shows a user object for Melanie Brinkhaltes with a creation timestamp of Jun 7, 2024 10:42 and status “Active”.  
+   – An Active Directory Users and Computers screenshot shows Melanie Brinkhaltes placed in the “Business Services” OU.  
+5. Ticket closure  
+   – The ticket status is shown as “Opgelost” (Solved) on 28 Jun 2024 at 13:05.  
+
+Completeness  
+Critical evidence missing or insufficient:  
+ • Formal approval workflow in Jira – there is no recorded “approval” status or stamp in the Approvals section, only an email in a comments thread.  
+ • Proof that Erica Kat holds the delegated manager role or is authorized to approve this specific request.  
+ • Any evidence of the ticket capture of exact permissions or group memberships assigned (e.g., matching those of Stevie van Tevie).  
+ • Time-stamped linkage showing approval occurred prior to provisioning (approval email is 12 Jun but account was created 7 Jun).  
+
+Remarks  
+ • The provisioning date (7 Jun) predates both the ticket creation date (10 Jun) and the approval email (12 Jun), which is inconsistent with the control’s requirement that approval precede any access provisioning.  
+ • The ticket uses a free-form comment to capture approval rather than a structured approval workflow, raising questions about enforceability and auditability.  
+ • It is not clear from the evidence that the user was granted the same rights as an existing comparator (Stevie van Tevie) as requested in the ticket description.  
+
+Conclusion  
+Classification: C. Does not support – the evidence shows that the AD account for Melanie Brinkhaltes was created on 7 Jun 2024, before the request ticket was even logged (10 Jun) and well before the delegate manager’s approval on 12 Jun, in direct violation of the control requirement that approval must be obtained prior to provisioning.

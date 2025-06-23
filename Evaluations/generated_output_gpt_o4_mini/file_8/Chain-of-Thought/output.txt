@@ -1,0 +1,43 @@
+Identification  
+- Standardized request form (Indiensttredingsformulier) capturing:  
+  • Employee details (name, start date, personnel number, team)  
+  • Systems and roles required (MedCare Dossier: primary and extra roles; mailbox authorizations)  
+  • Manager authorization (signature and date)  
+- Submission by HR department to the ServiceDesk  
+- Ticket generation in TopDesk by the ServiceDesk  
+- Implementation of requested changes by VitalisIT in StaffLinkHR  
+- Logging of changes (change log with ticket number, changed-by, roles applied)
+
+Indication  
+- HR submission  
+  • Email from Jan Loos (Sr. HR Medewerker) dated 3-4-2023 13:59 to servicedesk@vitalis.com attaching the Indiensttredingsformulier for Emma de Vries.  
+- Standardized form  
+  • “Indiensttredingsformulier” dated 3 April 2023, signed by manager Jeroen van Dijk.  
+  • Requests for MedCare roles “Zorgverlener – Dossierinzage en -registratie” and “Verpleegkundig specialist – Medicatiebeheer”; mailbox group access.  
+- TopDesk ticket  
+  • Ticket W1234 5678 created 4-4-2023 by Mark Rover (ServiceDesk), category “Standaardaanvraag,” status “Gesloten,” implementer “VitalisIT.”  
+  • Ticket request text: “Graag toegang inregelen voor new joiner Emma de Vries, zie gekoppelde bijlage.”  
+- VitalisIT implementation  
+  • Email 14-4-2023 from it@vitalis.com (Rob As, VitalisIT) to servicedesk@vitalis.com: “account en de juiste toegangen zijn ingeregeld en staan nu in StaffLinkHR.”  
+  • StaffLinkHR screenshot (activatie 14-04-2023) shows user Emma de Vries active with roles “Zorgverlener – Dossierinzage en –registratie” and “Coördinator – Nachtverslaglegging.”  
+- Change log  
+  • Excel “Vitalis_Rolwijzigingen_Log_Namen” shows two entries on 14-04-2023 by as.rob@vitalis.com under ticket W1234 5678: one for “Zorgverlener – Dossierinzage en –registratie” (matches) and one for “Coördinator – Nachtverslaglegging” (does not match the form).
+
+Completeness  
+- Missing evidence of mailbox authorizations having been provisioned in the system.  
+- No documentation of HR or user sign-off confirming that the implemented access matches the request.  
+- No TopDesk attachment view to confirm the form was actually uploaded to the ticket record.  
+- No explanation or exception documentation for why the second requested role was not implemented and was replaced by a different role.
+
+Remarks  
+- There is a clear mismatch between the extra MedCare role requested (“Verpleegkundig specialist – Medicatiebeheer”) and the role actually provisioned (“Coördinator – Nachtverslaglegging”).  
+- The additional Team assignment in StaffLinkHR (Team Nacht – Zorg & Veiligheid) was not requested on the form.  
+- It is unclear whether VitalisIT misread the form, applied a standard template incorrectly, or if there was an off-form request.  
+- To resolve, we would need:  
+  • An explanation from VitalisIT for the role discrepancy or an approved change request;  
+  • Evidence of mailbox provisioning;  
+  • Evidence of HR/user acceptance that access is correct.
+
+Conclusion  
+C. Does not support – evidence violates the control description.  
+VitalisIT did not implement the access exactly as authorized on the standardized form (the second role is incorrect and requested mailbox access is not evidenced), indicating the control was not effectively executed.

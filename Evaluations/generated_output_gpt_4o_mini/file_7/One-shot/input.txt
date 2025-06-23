@@ -1,0 +1,59 @@
+You are an experienced IT auditor with expertise in evaluating access controls within financial audits. You apply professional judgment and maintain professional skepticism when evaluating whether the provided evidence supports the control description.
+Your task is to carefully analyze the provided evidence to determine whether it sufficiently supports the described control.
+These is an example case attached with filenames ['./Human Evaluation/TOD 2/file_2_page_1.png', './Human Evaluation/TOD 2/file_2_page_2.png', './Human Evaluation/TOD 2/file_2_page_3.png']. You do not have to assess this case. It serves as a reference and has the control description:
+
+When a new joiner is scheduled to start, a ticket is created to initiate the onboarding process. The IT helpdesk reviews the ticket for validity. If accepted, the IT helpdesk submits an access request in IdentityNow based on the requested role. If the ticket was not submitted by the new joiner's manager, the manager must approve it before access is granted. Once approvals are in place, credentials and access rights are provisioned. Credentials are shared exactly seven days before the start date. The ticket is then closed by the IT helpdesk.
+
+With example evaluation:
+
+Identification
+1. A ticket is created to initiate the onboarding process.
+2. IT helpdesk reviews the ticket for validity.
+3. If accepted, IT helpdesk submits an access request in IdentityNow.
+4. Manager submits or approves ticket before access is granted.
+5. After approval, access rights are provisioned.
+6. Credentials are shared exactly seven days before approval.
+7. Ticket is closed by IT helpdesk.
+
+Indication
+1. At page 1, we inspect a ticket with ticket number I 156 39876. At page 2, we inspect that Lars Rots created the ticket on 2 Jul.
+2. At page 2, we inspect that Nils van Tetter assigned himself to the ticket, and accepted the ticket on 9 Jul 14:00.
+3. At page 2, Nils van Tetter added a comment noting that he submitted the access request on 9 Jul 14:30.
+4. At page 3, we confirm that Lars Rots is a manager of the Software Development department since 9 Feb 2024. This is before the ticket creation. As the new joiner’s role is Software Engineer, we consider Lars Rots a delegated manager. As he submitted the ticket, no approval is necessary.
+5. At page 2, we inspect an automated mail by the IdentityNow system, matching the earlier request, indicating that access rights are provisioned.
+6. At page 1, Nils van Tetter commented that the credentials were shared on 7 Aug. This is exactly 7 days before starting date 14 Aug.
+7. At page 1, Nils van Tetter made changes, closing the ticket on 7 Aug at 12:00.
+
+Completeness
+No evidence is missing to confirm the execution of this control.
+
+Remarks
+1. Nils van Tetter mentioned that credentials were shared, but does not provide evidence.
+2. The confirmation mail of access provisioning and the delegated manager’s Excel screen must be checked for validity via other controls. If not applicable, the client must confirm the validity. 
+3. Why send the credentials seven days prior to the starting date?
+
+Conclusion
+A. Fully supports. The evidence is complete and correct given that the source of Excel screen at page 3 is validated, and the underlying IT Application Control confirming the access provisioning is effective.
+
+
+Now consider the other case with filenames ['./Output/file_7/file_7_page_1.png', './Output/file_7/file_7_page_2.png', './Output/file_7/file_7_page_3.png'] with the following control description:
+
+In case of a new joiner, access rights must be requested through a ticket submitted by the IT department. The ticket must be labeled with ``access'', ``joiner'', and ``onboarding'' to ensure proper categorization. Approval from a delegate manager is required before any access is provisioned. Once approval has been obtained, IT is responsible for provisioning the access. Following the implementation, the ticket must be closed to complete the process.
+
+Based on the evidence, answer the questions according to the following format: 
+
+Identification: Based on the control description, what are the control attributes?
+
+Indication: How do you identify the attributes in the evidence? Specify which actions are taken and where in the evidence you found these.
+
+Completeness: Is any critical evidence missing that would be necessary to confirm the execution or effectiveness of the control?
+
+Remarks: Identify and describe elements in the control description or the evidence that are ambiguous, inconsistent, or require further clarification. Explain why these stand out and what additional information would help to resolve these issues.
+
+Conclusion: Based on your analysis, classify the case into one of the following categories:
+
+A. Fully supports - evidence is complete and confirms the correct execution of the control.
+B. Does not fully support - evidence is incomplete or unclear and may require additional clarification, no clear deficiency is indicated.
+C. Does not support - evidence violates the control description.
+
+Justify your classification with a brief explanation.

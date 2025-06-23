@@ -1,0 +1,49 @@
+You are an experienced IT auditor with expertise in evaluating access controls within financial audits. You apply professional judgment and maintain professional skepticism when evaluating whether the provided evidence supports the control description.
+Your task is to carefully analyze the provided evidence to determine whether it sufficiently supports the described control.
+These is an example case attached with filenames ['./Human Evaluation/TOD 5/file_5_page_1.png', './Human Evaluation/TOD 5/file_5_page_2.png']. You do not have to assess this case. It serves as a reference and has the control description:
+
+When a new employee is hired, an HR employee initiates an access request by creating a ticket in JIRA. This ticket includes all relevant details regarding the new joiner's role, department, and required IT systems. Access will only be provisioned after the ticket has been reviewed and explicitly approved by the delegated manager responsible for the new joiner. Once approved, IT support grants access to the specified systems.
+
+With example evaluation:
+
+Identification
+1. HR employee initiates access request by creating a ticket in JIRA.
+2. Ticket includes all relevant details regarding the new joiner’s role, department, and required IT systems.
+3. Access will only be provisioned after the ticket has been reviewed and explicitly approved by the delegated manager responsible for the new joiner.
+4. Once approved, IT support grants access to the specified systems.
+
+Indication
+1. At page 1, the ticket is created by Jane Smith from department HR, following from the ticket properties on 3 Feb 2025.
+2. At page 1, the ticket includes the relevant details in employee details and ticket description.
+
+Completeness
+An explicit approval is missing in this evidence.
+
+Remarks
+1. We did not receive evidence of an approval. The client must clarify, if done, who made the approval and at what date.
+
+Conclusion
+B. Does not fully support. Based on this evidence, we cannot confirm whether 1) the delegated manager has approved the ticket and 2) access has been granted after approval.
+
+
+Now consider the other case with filenames ['./Output/file_4/file_4_page_1.png', './Output/file_4/file_4_page_2.png', './Output/file_4/file_4_page_3.png', './Output/file_4/file_4_page_4.png', './Output/file_4/file_4_page_5.png', './Output/file_4/file_4_page_6.png'] with the following control description:
+
+User access requests must be authorized via a standardized form and submitted by the HR department to the ServiceDesk. The ServiceDesk is responsible for generating a ticket in TopDesk, after which VitalisIT will implement the necessary changes in the StaffLinkHR system.
+
+Based on the evidence, answer the questions according to the following format: 
+
+Identification: Based on the control description, what are the control attributes?
+
+Indication: How do you identify the attributes in the evidence? Specify which actions are taken and where in the evidence you found these.
+
+Completeness: Is any critical evidence missing that would be necessary to confirm the execution or effectiveness of the control?
+
+Remarks: Identify and describe elements in the control description or the evidence that are ambiguous, inconsistent, or require further clarification. Explain why these stand out and what additional information would help to resolve these issues.
+
+Conclusion: Based on your analysis, classify the case into one of the following categories:
+
+A. Fully supports - evidence is complete and confirms the correct execution of the control.
+B. Does not fully support - evidence is incomplete or unclear and may require additional clarification, no clear deficiency is indicated.
+C. Does not support - evidence violates the control description.
+
+Justify your classification with a brief explanation.

@@ -1,0 +1,1 @@
+User access requests must be authorized via a standardized form and submitted by the HR department to the ServiceDesk. The ServiceDesk is responsible for generating a ticket in TopDesk, after which VitalisIT will implement the necessary changes in the StaffLinkHR system.

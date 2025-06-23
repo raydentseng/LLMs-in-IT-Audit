@@ -1,0 +1,24 @@
+### Identification:
+1. Access rights must be requested via a ticket submitted by the IT department.
+2. Ticket must be labeled with “access”, “joiner”, and “onboarding”.
+3. Approval from a delegate manager is required before access is provisioned.
+4. IT is responsible for provisioning the access.
+5. The ticket must be closed to complete the process.
+
+### Indication:
+1. **Page 1**: The ticket for the onboarding of Melanie Brinkhaltes is present, indicating that a request was made by the IT department.
+2. **Page 1**: The ticket is labeled with “access” and “onboarding”, which is in line with the requirements.
+3. **Page 1**: It shows a message requesting manager approval from Erica Kat, confirming that the approval process was followed.
+4. **Page 6**: The StaffLinkHR system shows that Melanie Brinkhaltes has been successfully onboarded.
+5. **Page 6**: The log indicates that access was provisioned through VitalisIT, fulfilling the provisioning responsibility.
+
+### Completeness:
+While the evidence provides good support for the requested access, there is no clear indication of whether the ticket was formally closed after the process. This closure is necessary to confirm that the process is complete.
+
+### Remarks:
+1. The approval from the delegate manager is noted, but there’s no explicit response or confirmation included in the evidence to validate acceptance of that approval.
+2. Additional evidence of the ticket closure process would enhance clarity regarding whether all steps were duly completed.
+3. It is also unclear if the ticket was labeled correctly throughout the entire process; while the ticket currently shows the correct labels, earlier screenshots or logs confirming this would be beneficial.
+
+### Conclusion:
+**B. Does not fully support** - The evidence is incomplete, mainly due to the lack of confirmation about the ticket closure and the formal response to the approval request. While the actions taken are indicated, the necessity for closure remains unverified, leading to insufficient confirmation that the control was fully executed in compliance with the described process.

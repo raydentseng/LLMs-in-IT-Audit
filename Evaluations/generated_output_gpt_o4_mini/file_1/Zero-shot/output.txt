@@ -1,0 +1,28 @@
+Identification:
+• Ticket creation: HR (Jane Smith) opens a JIRA “Employee Onboarding Request” (SR-12345)  
+• New-joiner details: full name, job title, department, manager, start date, and requested IT systems are all captured in the “Employee Details” and “Description” sections  
+• Manager approval: explicit approval by the delegated manager (Max Powers) is recorded in the “Approval Logs” with date/time  
+• IT provisioning: IT support (Alex Ryders and Jordan Smith) grants access only after approval and documents each system’s provisioning in JIRA comments and outbound emails  
+• Ticket closure: the ticket is closed only after all requested access has been granted  
+
+Indication:
+• Header (“door Jane Smith … op ma., 3 feb. 2025 10:30”) shows HR created the JIRA request  
+• “Employee Details” lists John Doe’s role (IT Audit consultant), department (IT Audit), manager (Max Powers) and “Description” enumerates required mail groups and programs (IT Audit Programma 1, 2, 3)  
+• “Approval Logs” block: “Must be approved by … Max Powers” with a signature image and “Goedgekeurd op vr., 28 feb. 2025 10:23”  
+• Comments by Alex Ryders on 3 maa. 2025: evidence of email-group and Program 1 & 2 provisioning  
+• Alex’s outbound email on 4 maa. requesting Jordan to grant Program 3 rights, referencing SR-12345  
+• Jordan Smith’s outbound email on 6 maa. confirming Program 3 rights granted and ticket closure  
+
+Completeness:
+• All core steps (HR request, documented details, manager approval, IT provisioning, ticket closure) are evidenced  
+• For maximum assurance one might also inspect:  
+  – JIRA status‐change audit trail showing “Approved” → “In Progress” → “Closed”  
+  – System logs from the underlying applications (mail system, Programma 1, 2, 3) confirming the actual rights assignments  
+
+Remarks:
+• The “Aangevraagd voor” field incorrectly repeats the requestor (Jane Smith) rather than the new joiner; clarity would improve if this field matched the “Employee Details” name  
+• The manager’s approval appears as a signature image in the PDF rather than a visible workflow transition in JIRA—linking the approval directly to the ticket status would reduce ambiguity  
+• IT provisioning is documented via email exchanges rather than JIRA comment entries; consistency of where all evidence is stored (in JIRA) would strengthen the control  
+
+Conclusion:
+A. Fully supports – the evidence, taken as a whole, shows the ticket was created by HR with the necessary new-joiner details, explicitly approved by the manager before any access was granted, and then provisioned by IT support in a controlled, documented manner.

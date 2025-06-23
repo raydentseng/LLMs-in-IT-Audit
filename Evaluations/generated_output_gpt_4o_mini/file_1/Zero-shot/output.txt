@@ -1,0 +1,31 @@
+### Identification
+**Control Attributes:**
+1. **Initiation by HR**: An access request must be initiated by an HR employee through a ticket in JIRA.
+2. **Details Requirement**: The ticket must include relevant details such as the new joiner’s role, department, and required IT systems.
+3. **Approval by Manager**: The ticket must be reviewed and explicitly approved by the delegated manager.
+4. **Provisioning by IT**: Access is provisioned only after manager approval.
+
+### Indication
+**Identification of Attributes in Evidence:**
+1. **Initiation by HR**: The ticket is created by Jane Smith from HR, as indicated in the ticket properties.
+2. **Details Requirement**: The evidence contains comprehensive details about the new joiner (John Doe's name, function title, department, and the specific IT systems required).
+3. **Approval by Manager**: Max Powers' approval is documented with a timestamp (28 Feb. 2025) in the approval logs section of the evidence.
+4. **Provisioning by IT**: Comments from Alex Ryders and Jordan Smith provide explicit information on the access grants and approval for all required applications, confirming provisioning post-approval.
+
+### Completeness
+**Missing Critical Evidence:**
+While the evidence shows approval and access granted for the specified applications, it could be enhanced by documenting the review process, such as the criteria or checklist used by the manager for the approval decision. Additionally, there is no formal record of who reviewed the ticket prior to approval, which could provide insight into the completeness of the control execution.
+
+### Remarks
+**Ambiguities or Inconsistencies:**
+1. **Lack of Detailed Review Process**: The evidence lacks granularity around the review process itself—it's unclear how the manager assessed the request. 
+2. **Timing for Provisioning**: There's no indication of the timeline in which access was granted relative to ticket submission and approval, which raises questions about the efficiency and effectiveness of the control.
+
+Additional documentation affirming the steps taken during the review process by Max Powers would clarify these issues.
+
+### Conclusion
+**Classification:**
+**B. Does not fully support** - evidence is incomplete or unclear and may require additional clarification; no clear deficiency is indicated.
+
+**Justification:**
+The evidence largely supports the execution of the control with sufficient documentation of the initiation, approval, and access provisioning processes; however, the absence of explicit detail regarding the review process creates a gap in fully confirming the effectiveness of the control. Further clarification on this aspect would strengthen the foundation of the control's execution.

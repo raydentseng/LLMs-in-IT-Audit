@@ -1,0 +1,27 @@
+### Identification:
+The control attributes based on the control description include:
+1. **Access Request**: Access rights must be requested via a ticket submitted by the IT department.
+2. **Ticket Labeling**: The ticket must be labeled with specific terms: “access,” “joiner,” and “onboarding.”
+3. **Approval Requirement**: Approval from a delegate manager is mandatory before provisioning access.
+4. **Provisioning Responsibility**: IT is responsible for provisioning the access once approved.
+5. **Ticket Closure**: The ticket must be closed to complete the process.
+
+### Indication:
+1. **Access Request**: The evidence shows a ticket created by Ronald Tijsen from IT with the request for onboarding Melanie Brinkhaltes (shown in the first image).
+2. **Ticket Labeling**: The ticket contains labels, including "access," "joiner," and "onboarding," as evidenced in the details panel of the same ticket.
+3. **Approval Requirement**: In the activity section, Erica Kat's approval is documented with a timestamp, confirming manager approval (shown in the internal notes).
+4. **Provisioning Responsibility**: While the provisioning process isn't explicitly detailed, it is implied that following approval, provisioning will take place as part of the ticket closure action.
+5. **Ticket Closure**: The status of the ticket is marked as "Done," indicating closure post-access provisioning.
+
+### Completeness:
+While the ticket displays the necessary components of a request and approval, critical evidence related to the actual provisioning steps and the confirmation of access rights in the system is missing. For instance, evidence demonstrating that the provisioning of access was completed according to the approved request (via system logs or confirmations in the IT system) would strengthen the verification of the control's execution.
+
+### Remarks:
+1. **Provisioning Process**: The absence of direct evidence demonstrating the final provisioning of adequate access after approval could lead to uncertainty about whether the control was effectively executed.
+2. **Timeliness of Actions**: There is limited context regarding the timing of the provisioning relative to the approval date. Additional timestamp information could clarify if the actions were completed promptly.
+3. **User Information**: The ticket references access permissions similar to another employee without explicitly detailing what those permissions are for the new joiner. Clarifying this would help understand compliance with access rights policies.
+
+### Conclusion:
+**B. Does not fully support - evidence is incomplete or unclear and may require additional clarification, no clear deficiency is indicated.**
+
+Justification: The collected evidence consists of an access request with proper labels and documented approval, but lacks definitive confirmation that access was provisioned as per the request. Additional information regarding the provisioning process and the specific access rights assigned would be necessary to fully assert compliance with the control description.

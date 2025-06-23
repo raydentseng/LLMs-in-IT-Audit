@@ -1,0 +1,51 @@
+Identification  
+Control attributes based on the description:  
+1. Ticket creation when a new joiner is scheduled to start  
+2. IT helpdesk review and validity check of the ticket  
+3. Ticket acceptance and submission of an access request in IdentityNow by IT helpdesk  
+4. Manager approval step if the ticket was not submitted by the new joiner’s manager  
+5. Provisioning of credentials and access rights once necessary approvals are in place  
+6. Sharing of credentials exactly seven days before the new joiner’s start date  
+7. Closure of the ticket by the IT helpdesk  
+
+Indication  
+How each attribute appears (or does not appear) in the evidence:  
+1. Ticket creation  
+   – “Lars Rots created issue – 02/Jul/24 14:49” (page 2)  
+   – Reporter: Lars Rots; Colleague (new joiner): Jan Rons (page 3)  
+
+2. IT helpdesk review and validity check  
+   – Status change on 09/Jul/24 14:00 from Open → Accepted [123] by Nils van Tetter (IT Helpdesk) (page 2)  
+
+3. Submission of access request in IdentityNow  
+   – Comment on 09/Jul/24 14:30: “Submitted the following in IdentityNow: … Software Engineer, Mailbox, Programme 1 PRD Backend developer, Programme 2 PRD Backend developer” (page 2)  
+
+4. Manager approval if not submitted by manager  
+   – Reporter is Lars Rots; a separate “Delegates in IdentityNow” extract shows Lars Rots has is_manager = FALSE (page 3).  
+   – No ticket comment or status entry indicating manager approval prior to provisioning.  
+
+5. Provisioning of credentials and access rights  
+   – On 26/Jul/24 12:13: system-generated email from no-reply@identitynow.com forwarded by Nils, confirming “Access has been granted to the following roles … Done” and status change from Inactive to Active (page 2).  
+
+6. Sharing credentials exactly seven days before start date  
+   – Starting date is 14/Aug/24 (page 1 & 3).  
+   – Comment on 07/Aug/24 10:20: “Credentials shared with Jan Rons.” (page 1)  
+   – This is exactly seven days before 14/Aug.  
+
+7. Ticket closure by IT helpdesk  
+   – On 07/Aug/24 12:00 Nils changes Resolution to Done and Status to Closed (page 1).  
+
+Completeness  
+Missing or insufficient evidence:  
+– No explicit record of manager approval (e.g., a comment, ticket status “Approved by manager,” or email from the manager).  
+– The “Delegates in IdentityNow” extract shows potential approvers but does not tie a specific manager’s approval to Jan Rons’s request.  
+
+Remarks  
+Ambiguities or points needing clarification:  
+– Who is Jan Rons’s actual line manager? The CSV of IdentityNow delegates lists several managers but does not show Jan’s manager or an approval event.  
+– The status transitions in the ticket (“Accepted [123]” → “Is in IdentityNow [12450]”) are not fully documented; it is unclear whether an automated approval step or a manual manager approval took place in IdentityNow.  
+– There is no explicit “validity check” comment or evidence that IT helpdesk verified the ticket details beyond the status change. A note or checklist entry would better demonstrate the review.  
+
+Conclusion  
+Classification: B. Does not fully support  
+Justification: All major steps except the manager-approval checkpoint are evidenced clearly (ticket creation, IT helpdesk review, IdentityNow submission, provisioning of rights, credential sharing at T–7 days, and ticket closure). However, there is no explicit evidence that the new joiner’s manager approved the access request when the ticket was submitted by a non-manager. Additional documentation of that approval step is required to fully support the control.

@@ -1,0 +1,23 @@
+Identification  
+1. HR initiates the request.  
+2. Ticket contains new joiner’s name, role, department, start date and list of required IT systems.  
+3. Delegated manager reviews and explicitly approves the ticket.  
+4. IT support provisions access only after manager approval.  
+5. Ticket is closed after all access is granted.  
+
+Indication  
+– Page 1: “door Jane Smith” (HR) created ticket #SR-12345 on 3 Feb 2025; Employee Details section lists John Doe’s name, title (IT Audit consultant), department (IT Audit), start date (09-04-2025) and required systems (mail groups and three IT Audit programs).  
+– Page 1 Approval Logs: Max Powers (listed as Manager) “Goedgekeurd op vr., 28 feb. 2025 10:23” with signature.  
+– Page 2 Comments (3 Mar 2025): Alex Ryders (IT Support) notes provisioning of the two e-mail groups and IT Audit Programma 1 & Programma 2.  
+– Page 2 (4 Mar 2025): Alex emails Jordan asking to provision Programma 3 now that 1 & 2 have been granted.  
+– Page 3 (6 Mar 2025 10:01): Jordan Smith (IT Support) confirms “Ik heb John Doe toegang gegeven tot IT Audit Programma 3 … Het ticket is hierbij gesloten.” The ticket’s “Gesloten op” field also shows 6 Mar 2025 10:01.  
+
+Completeness  
+All critical control steps are evidenced: HR creation by Jane Smith; comprehensive joiner details; explicit manager approval; sequential IT provisioning logged after approval; and ticket closure. The only minor gap is that provisioning of Programma 1 & 2 is recorded in comments rather than accompanied by system screenshots.  
+
+Remarks  
+• The manager field shows Max Powers as approver, but there is no separate “delegation” document – we infer he is the delegated manager.  
+• Evidence of provisioning for the first two applications relies on comment text rather than technical logs or screenshots, which could be strengthened.  
+
+Conclusion  
+A. Fully supports – the evidence is complete and demonstrates that the ticket was created by HR with all required details, explicitly approved by the manager, provisioned by IT only after approval, and then closed.

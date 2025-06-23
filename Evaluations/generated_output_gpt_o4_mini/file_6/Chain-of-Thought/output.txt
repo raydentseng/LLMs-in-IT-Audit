@@ -1,0 +1,39 @@
+Identification:  
+- Ticket creation: A ticket is generated to initiate onboarding for a new joiner.  
+- Ticket review and acceptance by IT Helpdesk: The helpdesk must review the ticket and set it to “Accepted” if valid.  
+- IdentityNow access request submission: A request reflecting the requested role(s) must be submitted into IdentityNow.  
+- Manager approval (conditional): If the requestor is not the new joiner’s manager, the manager must approve before provisioning.  
+- Access provisioning in IdentityNow: Once approvals are in place, access rights are granted in IdentityNow.  
+- Credentials sharing timing: Credentials must be shared exactly seven days before the start date.  
+- Ticket closure: The helpdesk closes the ticket once credentials are shared and provisioning is complete.  
+
+Indication:  
+1. Ticket creation and details  
+  • 02/Jul/24 14:49 – “Lars Rots created issue” (People/Dates section).  
+  • Ticket fields show First name Jan, Last name Rons, Starting date 14/Aug/24, Job Title “Software Engineer”, Role(s) “Backend Developer.”  
+2. Ticket review and acceptance  
+  • 09/Jul/24 14:00 – Nils van Tetter changed Status from “Open” to “Accepted [123]” and Assignee from “IT Helpdesk” to himself (Activity log).  
+3. Submission in IdentityNow  
+  • 09/Jul/24 14:30 – Comment “Submitted the following in IdentityNow:” with table of roles (Business title Software Engineer; Mailbox; Programme 1 PRD Backend developer; Programme 2 PRD Backend developer).  
+4. Access provisioning in IdentityNow  
+  • 26/Jul/24 09:35 – Email from no-reply@identitynow.com confirms “Access has been granted” to the listed roles and status changed from Inactive to Active.  
+  • 26/Jul/24 12:13 – Status changed to “Is in IdentityNow [12450]” (Activity log).  
+5. Credential-sharing instruction  
+  • 26/Jul/24 14:00 – Comment “Share credentials with Jan Rons seven days before starting date. When done, close the ticket.”  
+6. Credentials shared exactly seven days prior  
+  • 07/Aug/24 10:20 – Comment “Credentials shared with Jan Rons” which is exactly 7 days before 14/Aug/24.  
+7. Ticket closure  
+  • 07/Aug/24 12:00 – Nils van Tetter set Resolution from “In Progress” to “Done” and Status from “In Progress” to “Closed.”  
+8. Manager approval (checked)  
+  • “Reporter” is Lars Rots, not the new joiner’s manager.  In the “Delegates in IdentityNow” extract, Lars Rots has is_manager=FALSE.  No record of a manager approval step appears.  
+
+Completeness:  
+Evidence of all steps except the mandatory manager-approval step (for tickets not submitted by the manager) is shown. There is no record of any manager approval in the ticket history or IdentityNow workflow.  
+
+Remarks:  
+- The control requires a manager approval if the ticket isn’t submitted by the new joiner’s manager.  Here, the reporter (Lars Rots) is not the manager, yet no approval is documented.  
+- The “Delegates in IdentityNow” extract is ambiguous: it is unclear whether it represents the org-wide manager list or something specific to Jan Rons’s approvals.  Clarification of its purpose would help confirm manager assignment and approval routing.  
+- The Business Title “Software Engineer” appears as a role in IdentityNow but was not explicitly listed under “Role(s)” in the ticket details (only “Backend Developer” was).  It is not clear whether this was an implicit default or an additional request.  
+
+Conclusion: B. Does not fully support  
+The evidence demonstrates ticket creation, helpdesk acceptance, IdentityNow submission, provisioning, credential sharing at the correct interval, and ticket closure. However, it lacks any documented manager approval step required because the ticket was not submitted by the new joiner’s manager. Additional evidence of that approval is needed to confirm full compliance with the control.

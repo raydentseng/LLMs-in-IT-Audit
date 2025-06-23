@@ -1,0 +1,18 @@
+Identification
+1. HR employee initiates access request by creating a ticket in JIRA.
+2. Ticket includes all relevant details regarding the new joiner’s role, department, and required IT systems.
+3. Access will only be provisioned after the ticket has been reviewed and explicitly approved by the delegated manager responsible for the new joiner.
+4. Once approved, IT support grants access to the specified systems.
+
+Indication
+1. At page 1, the ticket is created by Jane Smith from department HR, following from the ticket properties on 3 Feb 2025.
+2. At page 1, the ticket includes the relevant details in employee details and ticket description.
+
+Completeness
+An explicit approval is missing in this evidence.
+
+Remarks
+1. We did not receive evidence of an approval. The client must clarify, if done, who made the approval and at what date.
+
+Conclusion
+B. Does not fully support. Based on this evidence, we cannot confirm whether 1) the delegated manager has approved the ticket and 2) access has been granted after approval.

@@ -1,0 +1,32 @@
+### Identification
+**Control Attributes:**
+1. Ticket creation for onboarding.
+2. IT helpdesk reviews ticket for validity.
+3. Manager approval required if ticket is not submitted by the manager.
+4. Access request submitted in IdentityNow based on requested role.
+5. Credentials shared seven days before the start date.
+6. Ticket closure by the IT helpdesk.
+
+### Indication
+**Evidence Identification:**
+1. **Ticket Creation:** Evidence of ticket creation is found on the first line documenting the type of ticket being "Create user."
+2. **Ticket Review:** The status changes indicate that the ticket went from "Open" to "Accepted."
+3. **Manager Approval:** There is no explicit mention of whether the manager approved the ticket, which requires further verification.
+4. **Access Request Submission:** Comments indicate that access has been submitted in IdentityNow on multiple dates.
+5. **Credential Sharing:** Specific comment dated “26-Jul/24” confirms sharing credentials is consistent with the control's requirement of seven days prior to the start date.
+6. **Ticket Closure:** The ticket status is updated to "Closed" on “07-Aug/24.”
+
+### Completeness
+**Missing Evidence:**
+- There is no clear evidence showing manager approval prior to the access request. Verification of manager identity and approval should be substantiated with an explicit comment or documentation.
+  
+### Remarks
+**Ambiguity and Clarity:**
+- The absence of clear documentation regarding the manager’s approval is a significant gap. The evidence provided shows the ticket's status changes, but lacks a documented step confirming the manager's input.
+- Additional documentation or comments specifying the manager’s approval would provide clarity on whether this control attribute was satisfied.
+
+### Conclusion
+**Classification:**
+B. **Does not fully support** - Evidence is incomplete or unclear, particularly regarding the manager's approval step, which is a critical part of the access control process.
+
+**Justification:** While the majority of control attributes are documented and supported by evidence, the lack of definitive proof of the manager's approval creates uncertainty regarding the effectiveness of the control. Additional clarification is needed to reach a full confirmation of the control execution.

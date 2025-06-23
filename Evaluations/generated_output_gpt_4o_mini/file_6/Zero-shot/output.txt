@@ -1,0 +1,33 @@
+### Identification
+Based on the control description, the control attributes include:
+1. **Ticket creation** for new joiners by the manager.
+2. **Validation of the ticket** by the IT helpdesk.
+3. **Access request submission** in IdentityNow based on the requested role.
+4. **Manager approval** if the ticket is not submitted by the manager.
+5. **Provisioning of credentials and access rights** seven days before the start date.
+6. **Closure of the ticket** by the IT helpdesk after provisioning.
+
+### Indication
+To identify these attributes in the evidence:
+1. **Ticket creation**: The ticket was created on **02-Jul-24**.
+2. **Validation by IT helpdesk**: The ticket status changed from **Open** to **Accepted** on **09-Jul-24**.
+3. **Access request submission**: Evidence of submission in IdentityNow is present on **09-Jul-24**.
+4. **Manager approval**: The ticket was accepted with no explicit manager's name mentioned but noted as accepted, suggesting it was internally validated.
+5. **Provisioning of credentials**: A comment on **26-Jul-24** states that credentials were shared, indicating provisioning occurred.
+6. **Closure of the ticket**: The status is noted as **Closed** on **07-Aug-24**.
+
+### Completeness
+Critical evidence that is missing includes:
+- Explicit evidence of manager approval, confirming who approved the request if the manager did not initiate the ticket.
+- Specific dates or logs showing when each access right was provisioned relative to the start date.
+- Clarity on the actual identities of the manager and helpdesk personnel involved for accountability purposes.
+
+### Remarks
+Elements requiring clarification:
+- The description states that the manager must approve if the ticket is not submitted by them, yet the evidence does not explicitly confirm the manager's involvement or approval process. The absence of this detail is notable, as it could imply non-compliance with access control procedures.
+- The comment about sharing credentials may be vague. It states credentials were shared but does not clarify whether this happened precisely seven days before the start date, raising concerns about adherence to the timeline specified in the control description.
+
+### Conclusion
+**Category: B. Does not fully support**
+
+Justification: The evidence is incomplete and lacks clarity, particularly regarding manager approval and the precise timeline of credential sharing. While some aspects of the control are evidenced, the ambiguity regarding specific roles and processes suggests that additional information would be necessary to confidently assert the effectiveness of the control.

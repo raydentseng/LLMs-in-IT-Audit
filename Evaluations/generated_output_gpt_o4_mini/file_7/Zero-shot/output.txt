@@ -1,0 +1,28 @@
+Identification:  
+• Ticket submission – IT department must request access via a ticket for every new joiner.  
+• Ticket labeling – the ticket must carry the labels “access”, “joiner” and “onboarding”.  
+• Manager approval – a delegate manager must approve the request before any access is provisioned.  
+• Provisioning – IT is responsible for provisioning the approved access.  
+• Ticket closure – once provisioning is complete, the ticket must be closed (resolved).
+
+Indication:  
+• Ticket submission: The Jira issue “Onboarding new joiner Melanie Brinkhaltes” was created by Ronald Tijsen (IT) (Automation panel: Created 10 Jun 2024 10:12).  
+• Ticket labeling: In the right-hand “Labels” field, the tags “access”, “joiner” and “onboarding” are present.  
+• Manager approval: An internal note dated 12 Jun 2024 12:15 captures an email from Erica Kat (delegate manager) stating “I approve.”  
+• Provisioning:  
+  – Active Directory user object exists for “Melanie Brinkhaltes” in the Business Services OU (ADUC screenshot).  
+  – PowerShell output shows the account was created on 7 Jun 2024 at 10:42.  
+• Ticket closure: The Jira automation log shows “Resolved 28 Jun 2024 13:05”.
+
+Completeness:  
+• No evidence of what specific access rights or group memberships were assigned, nor whether they match the baseline user (“Stevie van Tevie”).  
+• No detailed provisioning logs (e.g. GPO membership, file-share permissions, application roles).  
+• The ticket shows “Not assigned” under “Uitvoerder” (executor) – it’s unclear who actually performed the provisioning.  
+• There is no formal Jira approval step in the workflow; approval is evidence-boxed in an email comment rather than a structured “Approve” transition.
+
+Remarks:  
+• Timeline inconsistency: the user account was created on 7 Jun 2024—three days before the ticket was even opened (10 Jun 2024) and five days before manager approval (12 Jun 2024). This directly contradicts the control requirement that approval must precede provisioning.  
+• The approval evidence is an email forwarded by the IT requestor into a Jira note; it is not captured as a formal approval action or audit trail within the ticketing system.  
+• It is unclear whether the OU placement in “Business Services” fully reflects the same rights/role template as Stevie van Tevie, as required by the description.
+
+Conclusion: C. Does not support – the evidence shows access was provisioned before both ticket submission and manager approval, in direct violation of the control description.

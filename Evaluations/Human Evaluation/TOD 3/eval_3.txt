@@ -1,0 +1,23 @@
+Identification
+1. Ticket is created by the IT department.
+2. Ticket has labels ‘access’, ‘joiner’, ‘onboarding’.
+3. Approval is required before access is provisioned.
+4. After approval, IT provides access.
+5. Ticket is closed.
+
+Indication
+1. At page 1, we inspect that Ronald Tijsen (IT) created a JIRA ticket on 10 Jun 2024.
+2. At page 1, we inspect that the ticket has the correct labels.
+3. At page 1, Ronald Tijsen added a comment of an email that Erica Kat approved on 12 Jun, as requested in the ticket description.
+4. We inspect at page 2 that access has been provisioned on 21 Jun. This is after the date of approval. At page 3, we inspect the new joiner to be in the same AD list as Stevie van Tevie in Business Services.
+5. In page 1, we inspect that the ticket was closed on 28 Jun.
+
+Completeness
+The evidence does not indicate the roles of both the new joiner and the mirror user.
+
+Remarks
+1. While Erica approved as requested, we cannot confirm whether she is the manager. This must be confirmed via another GITC or via inquiry.
+2. We cannot identify whether the access of Stevie and Melanie are the same.
+
+Conclusion
+B. Does not fully support. We inspected that the new joiner has been granted access and is present in the same AD user list, but roles are not explicitly mentioned. We cannot confirm whether the new joiner has been granted the right access as requested.

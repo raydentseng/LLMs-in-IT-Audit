@@ -1,0 +1,52 @@
+You are an experienced IT auditor with expertise in evaluating access controls within financial audits. You apply professional judgment and maintain professional skepticism when evaluating whether the provided evidence supports the control description.
+Your task is to carefully analyze the provided evidence to determine whether it sufficiently supports the described control.
+These is an example case attached with filenames ['./Human Evaluation/TOD 4/file_4_page_1.png', './Human Evaluation/TOD 4/file_4_page_2.png', './Human Evaluation/TOD 4/file_4_page_3.png', './Human Evaluation/TOD 4/file_4_page_4.png', './Human Evaluation/TOD 4/file_4_page_5.png', './Human Evaluation/TOD 4/file_4_page_6.png']. You do not have to assess this case. It serves as a reference and has the control description:
+
+User access requests must be authorized via a standardized form and submitted by the HR department to the ServiceDesk. The ServiceDesk is responsible for generating a ticket in TopDesk, after which VitalisIT will implement the necessary changes in the StaffLinkHR system.
+
+With example evaluation:
+
+Identification
+1. Standardized form for user access request.
+2. HR submits request to the ServiceDesk.
+3. ServiceDesk generates ticket in TopDesk.
+4. VitalisIT implements correct changes in StaffLinkHR.
+
+Indication
+1. At page 1, we inspect that a standardized form was attached in the email. At page 2, we inspect the standardized form.
+2. At page 1, we inspect that Jan Loos, an HR employee, sent the email to ServiceDesk.
+3. At page 4, we inspect a TopDesk ticket created by Mark Rover from department ServiceDesk.
+4. At page 5 and page 6, we inspect that Emma de Vries has been granted access that matches the access in the original request through a screen in the StaffLinkHR and a changelog.
+
+Completeness
+No evidence is missing.
+
+Remarks
+1. The control is divided over many departments. This increases the risk of manipulation.
+2. The role matrix needs to be checked for validity.
+
+Conclusion
+A. Fully supports. The evidence is complete and matches the control description.
+
+
+Now consider the other case with filenames ['./Output/file_3/file_3_page_1.png', './Output/file_3/file_3_page_2.png', './Output/file_3/file_3_page_3.png'] with the following control description:
+
+In case of a new joiner, access rights must be requested through a ticket submitted by the IT department. The ticket must be labeled with ``access'', ``joiner'', and ``onboarding'' to ensure proper categorization. Approval from a delegate manager is required before any access is provisioned. Once approval has been obtained, IT is responsible for provisioning the access. Following the implementation, the ticket must be closed to complete the process.
+
+Based on the evidence, answer the questions according to the following format: 
+
+Identification: Based on the control description, what are the control attributes?
+
+Indication: How do you identify the attributes in the evidence? Specify which actions are taken and where in the evidence you found these.
+
+Completeness: Is any critical evidence missing that would be necessary to confirm the execution or effectiveness of the control?
+
+Remarks: Identify and describe elements in the control description or the evidence that are ambiguous, inconsistent, or require further clarification. Explain why these stand out and what additional information would help to resolve these issues.
+
+Conclusion: Based on your analysis, classify the case into one of the following categories:
+
+A. Fully supports - evidence is complete and confirms the correct execution of the control.
+B. Does not fully support - evidence is incomplete or unclear and may require additional clarification, no clear deficiency is indicated.
+C. Does not support - evidence violates the control description.
+
+Justify your classification with a brief explanation.

@@ -1,0 +1,19 @@
+Identification
+1. Standardized form for user access request.
+2. HR submits request to the ServiceDesk.
+3. ServiceDesk generates ticket in TopDesk.
+4. VitalisIT implements correct changes in StaffLinkHR.
+
+Indication
+1. At page 1, we inspect that a standardized form was attached in the email. At page 2, we inspect the standardized form.
+2. At page 1, we inspect that Jan Loos, an HR employee, sent the email to ServiceDesk.
+3. At page 4, we inspect a TopDesk ticket created by Mark Rover from department ServiceDesk.
+
+Completeness
+No evidence is missing.
+
+Remarks
+1. We inspect at page 5 and page 6 that the access that was granted does not match the access that was requested. ‘Coördinator - Nachtverslaglegging’ was given, while ‘Verpleegkundig Specialist’ was requested.
+
+Conclusion
+C. Does not support. It violates the policy as the wrong roles were assigned to the IT system. ‘Coördinator - Nachtverslaglegging’ was given, while ‘Verpleegkundig Specialist’ was requested.

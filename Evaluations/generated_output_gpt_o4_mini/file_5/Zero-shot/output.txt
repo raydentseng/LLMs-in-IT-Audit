@@ -1,0 +1,23 @@
+Identification:  
+1. Initiation – HR employee creates JIRA ticket for new‐joiner access  
+2. Ticket contents – includes new joiner’s role, department, manager, start date, and list of required systems  
+3. Manager approval – delegated manager must explicitly review and approve the ticket before provisioning  
+4. Provisioning – IT support grants access only after manager approval  
+
+Indication:  
+1. Initiation: Header shows “Employee Onboarding Request John Doe #SR-12345” created by Jane Smith (jane.smith@shield.com) on 3 Feb 2025 10:30 via “Indiensttreding van werknemers” in JIRA.  
+2. Ticket contents: The “EMPLOYEE DETAILS” section lists John Doe’s full name, title (IT Audit consultant), department (IT Audit), manager (Max Powers <max.powers@shield.com>), start date (09-04-2025), and in the “DESCRIPTION” section the required mail groups and program access.  
+3. Manager approval: The ticket shows a “GOEDGEKEURD” stamp, and the status transitions to closed on 6 Mar 2025 10:01, but there is no comment or record from the manager Max Powers explicitly approving the request.  
+4. Provisioning: Comments from Alex Ryders (IT Support) on 3 Mar 2025 at 13:14, 16:21, and 17:30 show mail groups and Programma 1 and 2 access granted. Jordan Smith on 6 Mar 2025 10:01 shows Programma 3 access granted and closes the ticket.  
+
+Completeness:  
+• Missing explicit approval record from the delegated manager (Max Powers). There is no timestamped approval comment or signature from him.  
+• No indication that IT waited for manager approval before provisioning: access was granted between 3 Mar and 6 Mar, before the ticket’s closure.  
+
+Remarks:  
+• The “GOEDGEKEURD” stamp is ambiguous: it does not identify who approved or when, and is not tied to the manager field.  
+• “Uitvoerder” is Jane Smith (HR), which is unexpected – this field should reflect the approver role or be blank until IT takes ownership.  
+• The timeline shows access being granted (3 Mar) prior to ticket closure (6 Mar), calling into question whether approval preceded provisioning.  
+• Clarification needed on the JIRA workflow: where and how does manager approval get captured? Is the stamp an automated status or a manual approval step?  
+
+Conclusion: C. Does not support – The evidence shows that IT support provisioned access before any documented, explicit manager approval and lacks a clear approval record from the delegated manager, in violation of the control description.

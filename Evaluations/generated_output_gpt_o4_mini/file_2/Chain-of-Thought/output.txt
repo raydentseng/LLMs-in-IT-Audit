@@ -1,0 +1,37 @@
+Identification:  
+- Ticket creation upon scheduling a new joiner  
+- IT helpdesk review and acceptance of the ticket  
+- IT helpdesk submission of the access request into IdentityNow based on the requested role  
+- Manager approval if the ticket originator is not the new joiner’s manager  
+- Provisioning of credentials and access rights once approvals are in place  
+- Sharing of credentials exactly seven days prior to the start date  
+- Closing the ticket by the IT helpdesk after credential sharing  
+
+Indication:  
+1. Ticket creation:  
+   – “Lars Rots created issue – 02/Jul/24 14:49” (page 2)  
+   – Reporter: Lars Rots; Colleague: Jan Rons; Start date: 14/Aug/24 (page 3)  
+2. IT helpdesk review & acceptance:  
+   – Status changed from Open to Accepted [123] by Nils van Tetter on 09/Jul/24 14:00 (page 2)  
+   – Assignee changed from IT Helpdesk to Nils van Tetter at that same time  
+3. Submission in IdentityNow:  
+   – Comment on 09/Jul/24 14:30: “Submitted the following in IdentityNow: [list of roles]” (page 2)  
+4. Access provisioning evidence:  
+   – Email from no-reply@identitynow.com dated 26/Jul/24 09:35 showing roles granted and status change to Active (page 2)  
+   – Status change in the ticket on 26/Jul/24 12:13 from “Accepted [123]” to “Is in IdentityNow [12450]” (page 1 & 2)  
+5. Credential-sharing timing:  
+   – Instruction on 26/Jul/24 14:00: “Share credentials with Jan Rons seven days before starting date. When done, close the ticket.” (page 1)  
+   – On 07/Aug/24 10:20, comment: “Credentials shared with Jan Rons” — exactly seven days before 14/Aug/24 (page 1)  
+6. Ticket closure:  
+   – On 07/Aug/24 12:00, Nils changes Resolution to Done and Status to Closed (page 1)  
+
+Completeness:  
+- No explicit evidence of “manager approval” if the ticket originator is not the manager. We see the reporter is Lars Rots and an extract of IdentityNow delegates showing Lars Rots as “is_manager = TRUE,” but no direct linkage to Jan Rons (e.g., “Manager has approved”).  
+- No explicit documentation of the ticket validity review steps (e.g., checklist or comment “ticket deemed valid”).  
+
+Remarks:  
+- It is assumed that because Lars Rots is a listed manager in the “Delegates in IdentityNow” extract, he is Jan Rons’s manager; however, there is no direct evidence that Jan reports to Lars or that a manager-approval workflow ever ran. Clarification on how the system defaults approval when the reporter is a manager would resolve this.  
+- The format of the manager-approval step (email, ticket comment, or system-recorded workflow) is not described in either the control narrative or the evidence, leaving room for ambiguity around how that approval is captured.  
+
+Conclusion: B. Does not fully support  
+While most steps of the onboarding access control are clearly evidenced (ticket creation, helpdesk acceptance, IdentityNow submission, provisioning, seven-day credential sharing, and closure), the critical “manager approval” element is not directly documented. Additional clarification or evidence of that approval is needed to fully support the control.
